@@ -11,8 +11,8 @@
     arable_land = 175
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
-        building_logging_camp = 7
-        building_fishing_wharf = 4
+        building_logging_camp = 70
+        building_fishing_wharf = 40
     }
     resource = {
         type = "building_rubber_plantation"
@@ -35,8 +35,8 @@ STATE_GUATEMALA = {
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
         building_iron_mine = 150
-        building_logging_camp = 17
-        building_fishing_wharf = 5
+        building_logging_camp = 170
+        building_fishing_wharf = 50
     }
     resource = {
         type = "building_rubber_plantation"
@@ -58,8 +58,8 @@ STATE_HONDURAS = {
     arable_land = 245
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
-        building_logging_camp = 15
-        building_fishing_wharf = 8
+        building_logging_camp = 150
+        building_fishing_wharf = 80
     }
     resource = {
         type = "building_rubber_plantation"
@@ -81,8 +81,8 @@ STATE_NICARAGUA = {
     arable_land = 350
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
-        building_logging_camp = 14
-        building_fishing_wharf = 5
+        building_logging_camp = 140
+        building_fishing_wharf = 50
     }
     resource = {
         type = "building_rubber_plantation"
@@ -105,8 +105,8 @@ STATE_COSTA_RICA = {
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
         building_coal_mine = 120
-        building_logging_camp = 8
-        building_fishing_wharf = 3
+        building_logging_camp = 80
+        building_fishing_wharf = 30
     }
     resource = {
         type = "building_rubber_plantation"
@@ -128,8 +128,8 @@ STATE_PANAMA = {
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_banana_plantation" }
     capped_resources = {
         building_coal_mine = 180
-        building_logging_camp = 8
-        building_fishing_wharf = 6
+        building_logging_camp = 80
+        building_fishing_wharf = 60
         building_whaling_station = 2
     }
     resource = {
@@ -152,8 +152,8 @@ STATE_HAITI = {
     arable_land = 245
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_dye_plantation" }
     capped_resources = {
-        building_logging_camp = 7
-        building_fishing_wharf = 6
+        building_logging_camp = 70
+        building_fishing_wharf = 60
     }
     resource = {
         type = "building_rubber_plantation"
@@ -175,8 +175,8 @@ STATE_SANTO_DOMINGO = {
     arable_land = 210
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_dye_plantation" }
     capped_resources = {
-        building_logging_camp = 11
-        building_fishing_wharf = 7
+        building_logging_camp = 110
+        building_fishing_wharf = 70
     }
     resource = {
         type = "building_rubber_plantation"
@@ -198,8 +198,8 @@ STATE_PUERTO_RICO = {
     arable_land = 105
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
-        building_logging_camp = 2
-        building_fishing_wharf = 4
+        building_logging_camp = 20
+        building_fishing_wharf = 40
     }
     resource = {
         type = "building_rubber_plantation"
@@ -220,7 +220,7 @@ STATE_BAHAMAS = {
     arable_land = 70
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
-        building_fishing_wharf = 5
+        building_fishing_wharf = 50
     }
     naval_exit_id = 3061
 }
@@ -239,7 +239,7 @@ STATE_WEST_INDIES = {
     arable_land = 210
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
-        building_fishing_wharf = 8
+        building_fishing_wharf = 80
     }
     resource = {
         type = "building_oil_rig"
@@ -261,10 +261,10 @@ STATE_JAMAICA = {
     arable_land = 140
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
-        building_logging_camp = 4
-        building_fishing_wharf = 5
+        building_logging_camp = 40
+        building_fishing_wharf = 50
     }
-    naval_exit_id = 3061
+    naval_exit_id = 3026
 }
 
 STATE_WESTERN_CUBA = {
@@ -280,8 +280,8 @@ STATE_WESTERN_CUBA = {
     arable_land = 644
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
-        building_logging_camp = 4
-        building_fishing_wharf = 7
+        building_logging_camp = 40
+        building_fishing_wharf = 70
         building_sulfur_mine = 15
     }
     resource = {
@@ -292,7 +292,7 @@ STATE_WESTERN_CUBA = {
         type = "building_oil_rig"
         undiscovered_amount = 50
     }
-    naval_exit_id = 3061
+    naval_exit_id = 3026
 }
 
 STATE_EASTERN_CUBA = {
@@ -311,11 +311,11 @@ STATE_EASTERN_CUBA = {
         building_coal_mine = 50
         building_iron_mine = 105
         building_lead_mine = 20
-        building_sulfur_mine = 10
-        building_logging_camp = 8
-        building_fishing_wharf = 3
+        building_sulfur_mine = 15
+        building_logging_camp = 80
+        building_fishing_wharf = 30
     }
-    naval_exit_id = 3061
+    naval_exit_id = 3026
 }
 
 STATE_CENTRAL_CUBA = {
@@ -332,8 +332,8 @@ STATE_CENTRAL_CUBA = {
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
         building_iron_mine = 15
-        building_logging_camp = 5
-        building_fishing_wharf = 3
+        building_logging_camp = 50
+        building_fishing_wharf = 30
     }
-    naval_exit_id = 3061
+    naval_exit_id = 3026
 }

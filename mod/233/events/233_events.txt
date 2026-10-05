@@ -670,74 +670,44 @@ namespace = 233_events
 	duration = 0
 	immediate = { 233_count = yes }
 	option = {
-		name = region_england#英格兰
-		trigger = { has_variable = 233_region_england }
-		233_count_clean = yes set_variable = 233_region_england
+		name = region_western_europe#英格兰
+		trigger = { has_variable = 233_region_western_europe }
+		233_count_clean = yes set_variable = 233_region_western_europe
 	}
 	option = {
-		name = region_north_sea_coast#北海
-		trigger = { has_variable = 233_region_north_sea_coast }
-		233_count_clean = yes set_variable = 233_region_north_sea_coast
+		name = region_southern_europe#伊比利亚
+		trigger = { has_variable = 233_region_southern_europe }
+		233_count_clean = yes set_variable = 233_region_southern_europe
 	}
 	option = {
-		name = region_iberia#伊比利亚
-		trigger = { has_variable = 233_region_iberia }
-		233_count_clean = yes set_variable = 233_region_iberia
+		name = region_east_africa#埃塞俄比亚
+		trigger = { has_variable = 233_region_east_africa }
+		233_count_clean = yes set_variable = 233_region_east_africa
 	}
 	option = {
-		name = region_occitania#奥克西塔尼亚
-		trigger = { has_variable = 233_region_occitania }
-		233_count_clean = yes set_variable = 233_region_occitania
+		name = region_central_america#加勒比
+		trigger = { has_variable = 233_region_central_america }
+		233_count_clean = yes set_variable = 233_region_central_america
 	}
 	option = {
-		name = region_france#法兰西
-		trigger = { has_variable = 233_region_france }
-		233_count_clean = yes set_variable = 233_region_france
+		name = region_central_europe#北德意志
+		trigger = { has_variable = 233_region_central_europe }
+		233_count_clean = yes set_variable = 233_region_central_europe
 	}
 	option = {
-		name = region_ethiopia#埃塞俄比亚
-		trigger = { has_variable = 233_region_ethiopia }
-		233_count_clean = yes set_variable = 233_region_ethiopia
-	}
-	option = {
-		name = region_caribbean#加勒比
-		trigger = { has_variable = 233_region_caribbean }
-		233_count_clean = yes set_variable = 233_region_caribbean
-	}
-	option = {
-		name = region_italy#意大利
-		trigger = { has_variable = 233_region_italy }
-		233_count_clean = yes set_variable = 233_region_italy
-	}
-	option = {
-		name = region_north_germany#北德意志
-		trigger = { has_variable = 233_region_north_germany }
-		233_count_clean = yes set_variable = 233_region_north_germany
-	}
-	option = {
-		name = region_rhine#莱茵
-		trigger = { has_variable = 233_region_rhine }
-		233_count_clean = yes set_variable = 233_region_rhine
-	}
-	option = {
-		name = region_danubia#多瑙
-		trigger = { has_variable = 233_region_danubia }
-		233_count_clean = yes set_variable = 233_region_danubia
-	}
-	option = {
-		name = region_baltic#波罗的
-		trigger = { has_variable = 233_region_baltic }
-		233_count_clean = yes set_variable = 233_region_baltic
-	}
-	option = {
-		name = region_poland#波兰
-		trigger = { has_variable = 233_region_poland }
-		233_count_clean = yes set_variable = 233_region_poland
-	}
-	option = {
-		name = region_balkans#巴尔干
+		name = region_balkans#多瑙
 		trigger = { has_variable = 233_region_balkans }
 		233_count_clean = yes set_variable = 233_region_balkans
+	}
+	option = {
+		name = region_northern_europe#波罗的
+		trigger = { has_variable = 233_region_northern_europe }
+		233_count_clean = yes set_variable = 233_region_northern_europe
+	}
+	option = {
+		name = region_eastern_europe#波兰
+		trigger = { has_variable = 233_region_eastern_europe }
+		233_count_clean = yes set_variable = 233_region_eastern_europe
 	}
 	option = {
 		name = region_russia#俄罗斯
@@ -745,39 +715,24 @@ namespace = 233_events
 		233_count_clean = yes set_variable = 233_region_russia
 	}
 	option = {
-		name = region_dnieper#第聂伯
-		trigger = { has_variable = 233_region_dnieper }
-		233_count_clean = yes set_variable = 233_region_dnieper
+		name = region_siberia#西西伯利亚
+		trigger = { has_variable = 233_region_siberia }
+		233_count_clean = yes set_variable = 233_region_siberia
 	}
 	option = {
-		name = region_west_siberia#西西伯利亚
-		trigger = { has_variable = 233_region_west_siberia }
-		233_count_clean = yes set_variable = 233_region_west_siberia
+		name = region_greater_persia#波斯
+		trigger = { has_variable = 233_region_greater_persia not = { has_variable = 233_2_region_greater_persia } }
+		233_count_clean = yes set_variable = 233_region_greater_persia
 	}
 	option = {
-		name = region_east_siberia#东西伯利亚
-		trigger = { has_variable = 233_region_east_siberia }
-		233_count_clean = yes set_variable = 233_region_east_siberia
+		name = region_arabia#阿拉伯
+		trigger = { has_variable = 233_region_arabia not = { has_variable = 233_2_region_arabia } }
+		233_count_clean = yes set_variable = 233_region_arabia
 	}
 	option = {
-		name = region_persia#波斯
-		trigger = { has_variable = 233_region_persia not = { has_variable = 233_2_region_persia } }
-		233_count_clean = yes set_variable = 233_region_persia
-	}
-	option = {
-		name = region_arabic#阿拉伯
-		trigger = { has_variable = 233_region_arabic not = { has_variable = 233_2_region_arabic } }
-		233_count_clean = yes set_variable = 233_region_arabic
-	}
-	option = {
-		name = region_caucasus#高加索
-		trigger = { has_variable = 233_region_caucasus not = { has_variable = 233_2_region_caucasus } }
-		233_count_clean = yes set_variable = 233_region_caucasus
-	}
-	option = {
-		name = region_anatolia#安纳托利亚
-		trigger = { has_variable = 233_region_anatolia not = { has_variable = 233_2_region_anatolia } }
-		233_count_clean = yes set_variable = 233_region_anatolia
+		name = region_near_east#安纳托利亚
+		trigger = { has_variable = 233_region_near_east not = { has_variable = 233_2_region_near_east } }
+		233_count_clean = yes set_variable = 233_region_near_east
 	}
 	option = {
 		name = region_north_india#北印度
@@ -810,14 +765,9 @@ namespace = 233_events
 		233_count_clean = yes set_variable = 233_region_indonesia
 	}
 	option = {
-		name = region_japan#日本
-		trigger = { has_variable = 233_region_japan not = { has_variable = 233_2_region_japan } }
-		233_count_clean = yes set_variable = 233_region_japan
-	}
-	option = {
-		name = region_manchuria#满洲
-		trigger = { has_variable = 233_region_manchuria not = { has_variable = 233_2_region_manchuria } }
-		233_count_clean = yes set_variable = 233_region_manchuria
+		name = region_northeast_asia#日本
+		trigger = { has_variable = 233_region_northeast_asia not = { has_variable = 233_2_region_northeast_asia } }
+		233_count_clean = yes set_variable = 233_region_northeast_asia
 	}
 	option = {
 		name = region_oceania#大洋洲
@@ -835,24 +785,14 @@ namespace = 233_events
 		233_count_clean = yes set_variable = 233_region_north_africa
 	}
 	option = {
-		name = region_senegal#塞内加尔
-		trigger = { has_variable = 233_region_senegal not = { has_variable = 233_2_region_senegal } }
-		233_count_clean = yes set_variable = 233_region_senegal
+		name = region_west_africa#塞内加尔
+		trigger = { has_variable = 233_region_west_africa not = { has_variable = 233_2_region_west_africa } }
+		233_count_clean = yes set_variable = 233_region_west_africa
 	}
 	option = {
-		name = region_niger#尼日尔
-		trigger = { has_variable = 233_region_niger not = { has_variable = 233_2_region_niger } }
-		233_count_clean = yes set_variable = 233_region_niger
-	}
-	option = {
-		name = region_zanj#僧祇
-		trigger = { has_variable = 233_region_zanj not = { has_variable = 233_2_region_zanj has_variable = 233_3_region_zanj } }
-		233_count_clean = yes set_variable = 233_region_zanj
-	}
-	option = {
-		name = region_congo#刚果
-		trigger = { has_variable = 233_region_congo not = { has_variable = 233_2_region_congo has_variable = 233_3_region_congo } }
-		233_count_clean = yes set_variable = 233_region_congo
+		name = region_equatorial_africa#刚果
+		trigger = { has_variable = 233_region_equatorial_africa not = { has_variable = 233_2_region_equatorial_africa has_variable = 233_3_region_equatorial_africa } }
+		233_count_clean = yes set_variable = 233_region_equatorial_africa
 	}
 	option = {
 		name = region_andes#安第斯
@@ -875,24 +815,9 @@ namespace = 233_events
 		233_count_clean = yes set_variable = 233_region_gran_colombia
 	}
 	option = {
-		name = region_mexico#墨西哥
-		trigger = { has_variable = 233_region_mexico not = { has_variable = 233_2_region_mexico has_variable = 233_3_region_mexico } }
-		233_count_clean = yes set_variable = 233_region_mexico
-	}
-	option = {
-		name = region_dixie#迪克西
-		trigger = { has_variable = 233_region_dixie not = { has_variable = 233_2_region_dixie has_variable = 233_3_region_dixie } }
-		233_count_clean = yes set_variable = 233_region_dixie
-	}
-	option = {
-		name = region_the_midwest#中西部
-		trigger = { has_variable = 233_region_the_midwest not = { has_variable = 233_2_region_the_midwest has_variable = 233_3_region_the_midwest } }
-		233_count_clean = yes set_variable = 233_region_the_midwest
-	}
-	option = {
-		name = region_central_america#中美洲
-		trigger = { has_variable = 233_region_central_america not = { has_variable = 233_2_region_central_america has_variable = 233_3_region_central_america } }
-		233_count_clean = yes set_variable = 233_region_central_america
+		name = region_atlantic_coast#迪克西
+		trigger = { has_variable = 233_region_atlantic_coast not = { has_variable = 233_2_region_atlantic_coast has_variable = 233_3_region_atlantic_coast } }
+		233_count_clean = yes set_variable = 233_region_atlantic_coast
 	}
 	option = {
 		name = region_canada#加拿大
@@ -905,29 +830,9 @@ namespace = 233_events
 		233_count_clean = yes set_variable = 233_region_pacific_coast
 	}
 	option = {
-		name = region_english_channel#英吉利海峡
-		trigger = { has_variable = 233_region_english_channel not = { has_variable = 233_2_region_english_channel has_variable = 233_3_region_english_channel } }
-		233_count_clean = yes set_variable = 233_region_english_channel
-	}
-	option = {
-		name = region_new_england#新英格兰
-		trigger = { has_variable = 233_region_new_england not = { has_variable = 233_2_region_new_england has_variable = 233_3_region_new_england } }
-		233_count_clean = yes set_variable = 233_region_new_england
-	}
-	option = {
 		name = region_southern_africa#南非
 		trigger = { has_variable = 233_region_southern_africa not = { has_variable = 233_2_region_southern_africa has_variable = 233_3_region_southern_africa } }
 		233_count_clean = yes set_variable = 233_region_southern_africa
-	}
-	option = {
-		name = region_mascarenes#马斯克林
-		trigger = { has_variable = 233_region_mascarenes not = { has_variable = 233_2_region_mascarenes has_variable = 233_3_region_mascarenes } }
-		233_count_clean = yes set_variable = 233_region_mascarenes
-	}
-	option = {
-		name = region_south_germany#南德意志
-		trigger = { not = { has_variable = 233_admiral } has_variable = 233_region_south_germany not = { has_variable = 233_2_region_south_germany has_variable = 233_3_region_south_germany } }
-		233_count_clean = yes set_variable = 233_region_south_germany
 	}
 	option = {
 		name = region_central_asia#中亚
@@ -980,29 +885,29 @@ namespace = 233_events
 		set_variable = 233_events.140
 	}
 	option = {
-		name = region_east_siberia#东西伯利亚
-		trigger = { has_variable = 233_2_region_east_siberia }
-		233_count_clean = yes set_variable = 233_region_east_siberia
+		name = region_siberia#东西伯利亚
+		trigger = { has_variable = 233_2_region_siberia }
+		233_count_clean = yes set_variable = 233_region_siberia
 	}
 	option = {
-		name = region_persia#波斯
-		trigger = { has_variable = 233_2_region_persia }
-		233_count_clean = yes set_variable = 233_region_persia
+		name = region_greater_persia#波斯
+		trigger = { has_variable = 233_2_region_greater_persia }
+		233_count_clean = yes set_variable = 233_region_greater_persia
 	}
 	option = {
-		name = region_arabic#阿拉伯
-		trigger = { has_variable = 233_2_region_arabic }
-		233_count_clean = yes set_variable = 233_region_arabic
+		name = region_arabia#阿拉伯
+		trigger = { has_variable = 233_2_region_arabia }
+		233_count_clean = yes set_variable = 233_region_arabia
 	}
 	option = {
-		name = region_caucasus#高加索
-		trigger = { has_variable = 233_2_region_caucasus }
-		233_count_clean = yes set_variable = 233_region_caucasus
+		name = region_russia#高加索
+		trigger = { has_variable = 233_2_region_russia }
+		233_count_clean = yes set_variable = 233_region_russia
 	}
 	option = {
-		name = region_anatolia#安纳托利亚
-		trigger = { has_variable = 233_2_region_anatolia }
-		233_count_clean = yes set_variable = 233_region_anatolia
+		name = region_near_east#安纳托利亚
+		trigger = { has_variable = 233_2_region_near_east }
+		233_count_clean = yes set_variable = 233_region_near_east
 	}
 	option = {
 		name = region_north_india#北印度
@@ -1035,14 +940,9 @@ namespace = 233_events
 		233_count_clean = yes set_variable = 233_region_indonesia
 	}
 	option = {
-		name = region_japan#日本
-		trigger = { has_variable = 233_2_region_japan }
-		233_count_clean = yes set_variable = 233_region_japan
-	}
-	option = {
-		name = region_manchuria#满洲
-		trigger = { has_variable = 233_2_region_manchuria }
-		233_count_clean = yes set_variable = 233_region_manchuria
+		name = region_northeast_asia#日本
+		trigger = { has_variable = 233_2_region_northeast_asia }
+		233_count_clean = yes set_variable = 233_region_northeast_asia
 	}
 	option = {
 		name = region_oceania#大洋洲
@@ -1060,24 +960,19 @@ namespace = 233_events
 		233_count_clean = yes set_variable = 233_region_north_africa
 	}
 	option = {
-		name = region_senegal#塞内加尔
-		trigger = { has_variable = 233_2_region_senegal }
-		233_count_clean = yes set_variable = 233_region_senegal
+		name = region_west_africa#塞内加尔
+		trigger = { has_variable = 233_2_region_west_africa }
+		233_count_clean = yes set_variable = 233_region_west_africa
 	}
 	option = {
-		name = region_niger#尼日尔
-		trigger = { has_variable = 233_2_region_niger }
-		233_count_clean = yes set_variable = 233_region_niger
+		name = region_east_africa#僧祇
+		trigger = { has_variable = 233_2_region_east_africa }
+		233_count_clean = yes set_variable = 233_region_east_africa
 	}
 	option = {
-		name = region_zanj#僧祇
-		trigger = { has_variable = 233_2_region_zanj }
-		233_count_clean = yes set_variable = 233_region_zanj
-	}
-	option = {
-		name = region_congo#刚果
-		trigger = { has_variable = 233_2_region_congo }
-		233_count_clean = yes set_variable = 233_region_congo
+		name = region_equatorial_africa#刚果
+		trigger = { has_variable = 233_2_region_equatorial_africa }
+		233_count_clean = yes set_variable = 233_region_equatorial_africa
 	}
 	option = {
 		name = region_andes#安第斯
@@ -1100,24 +995,14 @@ namespace = 233_events
 		233_count_clean = yes set_variable = 233_region_gran_colombia
 	}
 	option = {
-		name = region_mexico#墨西哥
-		trigger = { has_variable = 233_2_region_mexico }
-		233_count_clean = yes set_variable = 233_region_mexico
-	}
-	option = {
-		name = region_dixie#迪克西
-		trigger = { has_variable = 233_2_region_dixie }
-		233_count_clean = yes set_variable = 233_region_dixie
-	}
-	option = {
-		name = region_the_midwest#中西部
-		trigger = { has_variable = 233_2_region_the_midwest }
-		233_count_clean = yes set_variable = 233_region_the_midwest
-	}
-	option = {
-		name = region_central_america#中美洲
+		name = region_central_america#墨西哥
 		trigger = { has_variable = 233_2_region_central_america }
 		233_count_clean = yes set_variable = 233_region_central_america
+	}
+	option = {
+		name = region_atlantic_coast#迪克西
+		trigger = { has_variable = 233_2_region_atlantic_coast }
+		233_count_clean = yes set_variable = 233_region_atlantic_coast
 	}
 	option = {
 		name = region_canada#加拿大
@@ -1130,14 +1015,9 @@ namespace = 233_events
 		233_count_clean = yes set_variable = 233_region_pacific_coast
 	}
 	option = {
-		name = region_english_channel#英吉利海峡
-		trigger = { has_variable = 233_2_region_english_channel }
-		233_count_clean = yes set_variable = 233_region_english_channel
-	}
-	option = {
-		name = region_new_england#新英格兰
-		trigger = { has_variable = 233_2_region_new_england }
-		233_count_clean = yes set_variable = 233_region_new_england
+		name = region_western_europe#英吉利海峡
+		trigger = { has_variable = 233_2_region_western_europe }
+		233_count_clean = yes set_variable = 233_region_western_europe
 	}
 	option = {
 		name = region_southern_africa#南非
@@ -1145,14 +1025,9 @@ namespace = 233_events
 		233_count_clean = yes set_variable = 233_region_southern_africa
 	}
 	option = {
-		name = region_mascarenes#马斯克林
-		trigger = { has_variable = 233_2_region_mascarenes }
-		233_count_clean = yes set_variable = 233_region_mascarenes
-	}
-	option = {
-		name = region_south_germany#南德意志
-		trigger = { not = { has_variable = 233_admiral } has_variable = 233_2_region_south_germany }
-		233_count_clean = yes set_variable = 233_region_south_germany
+		name = region_central_europe#南德意志
+		trigger = { not = { has_variable = 233_admiral } has_variable = 233_2_region_central_europe }
+		233_count_clean = yes set_variable = 233_region_central_europe
 	}
 	option = {
 		name = region_central_asia#中亚
@@ -1205,14 +1080,14 @@ namespace = 233_events
 		set_variable = 233_events.141
 	}
 	option = {
-		name = region_zanj#僧祇
-		trigger = { has_variable = 233_3_region_zanj }
-		233_count_clean = yes set_variable = 233_region_zanj
+		name = region_east_africa#僧祇
+		trigger = { has_variable = 233_3_region_east_africa }
+		233_count_clean = yes set_variable = 233_region_east_africa
 	}
 	option = {
-		name = region_congo#刚果
-		trigger = { has_variable = 233_3_region_congo }
-		233_count_clean = yes set_variable = 233_region_congo
+		name = region_equatorial_africa#刚果
+		trigger = { has_variable = 233_3_region_equatorial_africa }
+		233_count_clean = yes set_variable = 233_region_equatorial_africa
 	}
 	option = {
 		name = region_andes#安第斯
@@ -1235,24 +1110,14 @@ namespace = 233_events
 		233_count_clean = yes set_variable = 233_region_gran_colombia
 	}
 	option = {
-		name = region_mexico#墨西哥
-		trigger = { has_variable = 233_3_region_mexico }
-		233_count_clean = yes set_variable = 233_region_mexico
-	}
-	option = {
-		name = region_dixie#迪克西
-		trigger = { has_variable = 233_3_region_dixie }
-		233_count_clean = yes set_variable = 233_region_dixie
-	}
-	option = {
-		name = region_the_midwest#中西部
-		trigger = { has_variable = 233_3_region_the_midwest }
-		233_count_clean = yes set_variable = 233_region_the_midwest
-	}
-	option = {
-		name = region_central_america#中美洲
+		name = region_central_america#墨西哥
 		trigger = { has_variable = 233_3_region_central_america }
 		233_count_clean = yes set_variable = 233_region_central_america
+	}
+	option = {
+		name = region_atlantic_coast#迪克西
+		trigger = { has_variable = 233_3_region_atlantic_coast }
+		233_count_clean = yes set_variable = 233_region_atlantic_coast
 	}
 	option = {
 		name = region_canada#加拿大
@@ -1265,14 +1130,9 @@ namespace = 233_events
 		233_count_clean = yes set_variable = 233_region_pacific_coast
 	}
 	option = {
-		name = region_english_channel#英吉利海峡
-		trigger = { has_variable = 233_3_region_english_channel }
-		233_count_clean = yes set_variable = 233_region_english_channel
-	}
-	option = {
-		name = region_new_england#新英格兰
-		trigger = { has_variable = 233_3_region_new_england }
-		233_count_clean = yes set_variable = 233_region_new_england
+		name = region_western_europe#英吉利海峡
+		trigger = { has_variable = 233_3_region_western_europe }
+		233_count_clean = yes set_variable = 233_region_western_europe
 	}
 	option = {
 		name = region_southern_africa#南非
@@ -1280,14 +1140,9 @@ namespace = 233_events
 		233_count_clean = yes set_variable = 233_region_southern_africa
 	}
 	option = {
-		name = region_mascarenes#马斯克林
-		trigger = { has_variable = 233_3_region_mascarenes }
-		233_count_clean = yes set_variable = 233_region_mascarenes
-	}
-	option = {
-		name = region_south_germany#南德意志
-		trigger = { not = { has_variable = 233_admiral } has_variable = 233_region_south_germany }
-		233_count_clean = yes set_variable = 233_region_south_germany
+		name = region_central_europe#南德意志
+		trigger = { not = { has_variable = 233_admiral } has_variable = 233_region_central_europe }
+		233_count_clean = yes set_variable = 233_region_central_europe
 	}
 	option = {
 		name = region_central_asia#中亚
@@ -1423,23 +1278,23 @@ namespace = 233_events
 	}
 	option = {
 		name = character_role_heir#继承人
-		trigger = { any_scope_character = { is_heir = yes } }
+		trigger = { any_scope_character = { is_heir_of_own_country = yes } }
 		hidden_effect = { heir = { add_trait = 233_target_character } trigger_event = { id = 233_events.220 popup = yes } }
 	}
 	option = {
 		name = character_role_politician#政治家
-		trigger = { any_scope_character = { has_role = politician is_ruler = no is_heir = no } }
-		hidden_effect = { every_scope_character = { limit = { has_role = politician is_ruler = no is_heir = no } add_trait = 233_potential_target } trigger_event = { id = 233_events.210 popup = yes } }
+		trigger = { any_scope_character = { has_role_of_type = politician is_ruler_of_own_country = no is_heir_of_own_country = no } }
+		hidden_effect = { every_scope_character = { limit = { has_role_of_type = politician is_ruler_of_own_country = no is_heir_of_own_country = no } add_trait = 233_potential_target } trigger_event = { id = 233_events.210 popup = yes } }
 	}
 	option = {
 		name = concept_general#陆军将领
-		trigger = { any_scope_character = { has_role = general is_ruler = no } }
-		hidden_effect = { every_scope_character = { limit = { has_role = general is_ruler = no } add_trait = 233_potential_target } trigger_event = { id = 233_events.210 popup = yes } }
+		trigger = { any_scope_character = { has_role_of_type = general is_ruler_of_own_country = no } }
+		hidden_effect = { every_scope_character = { limit = { has_role_of_type = general is_ruler_of_own_country = no } add_trait = 233_potential_target } trigger_event = { id = 233_events.210 popup = yes } }
 	}
 	option = {
 		name = concept_admiral#海军将领
-		trigger = { any_scope_character = { has_role = admiral is_ruler = no } }
-		hidden_effect = { every_scope_character = { limit = { has_role = admiral is_ruler = no } add_trait = 233_potential_target } trigger_event = { id = 233_events.210 popup = yes } }
+		trigger = { any_scope_character = { has_role_of_type = admiral is_ruler_of_own_country = no } }
+		hidden_effect = { every_scope_character = { limit = { has_role_of_type = admiral is_ruler_of_own_country = no } add_trait = 233_potential_target } trigger_event = { id = 233_events.210 popup = yes } }
 	}
 	option = {	#返回
 		name = return
@@ -1589,7 +1444,7 @@ namespace = 233_events
 	}
 	option = {
 		name = SET_CHARACTER_AS_RULER
-		trigger = { scope:233_target_character = { is_ruler = no } }
+		trigger = { scope:233_target_character = { is_ruler_of_own_country = no } }
 		scope:233_target_character = { set_character_as_ruler = yes }
 	}
 	option = { #加经验
@@ -1607,7 +1462,7 @@ namespace = 233_events
 		name = add_super_traits
 		trigger = {
 		not = { or = { has_global_variable = 233_Normal_version has_global_variable = 233_Lightweight_version } }
-		scope:233_target_character = { has_role = general not = { has_trait = 233_super_traits	} } }
+		scope:233_target_character = { has_role_of_type = general not = { has_trait = 233_super_traits	} } }
 		scope:233_target_character = { add_trait = 233_super_traits }
 		hidden_effect = { trigger_event = { id = 233_events.220 popup = yes } }
 	}
@@ -1621,7 +1476,7 @@ namespace = 233_events
 		name = 233_commander_rank
 		trigger = { 
 		  not = { has_global_variable = 233_Lightweight_version }
-		  scope:233_target_character = { or = { has_role = general has_role = admiral } }
+		  scope:233_target_character = { or = { has_role_of_type = general has_role_of_type = admiral } }
 		}
 		hidden_effect = { trigger_event = { id = 233_events.270 popup = yes } }
 	}
@@ -2290,102 +2145,102 @@ namespace = 233_events
 	immediate = { random_character = { limit = { has_trait = 233_target_character } save_scope_as = 233_target_character } }
 	option = {
 		name = pillager
-		trigger = { scope:233_target_character = { has_role = general not = { has_trait = pillager } } }
+		trigger = { scope:233_target_character = { has_role_of_type = general not = { has_trait = pillager } } }
 		scope:233_target_character = { add_trait = pillager }
 	}
 	option = {
 		name = surveyor
-		trigger = { scope:233_target_character = { has_role = general not = { has_trait = surveyor } } }
+		trigger = { scope:233_target_character = { has_role_of_type = general not = { has_trait = surveyor } } }
 		scope:233_target_character = { add_trait = surveyor }
 	}
 	option = {
 		name = defense_in_depth_specialist
-		trigger = { scope:233_target_character = { has_role = general not = { has_trait = defense_in_depth_specialist } } }
+		trigger = { scope:233_target_character = { has_role_of_type = general not = { has_trait = defense_in_depth_specialist } } }
 		scope:233_target_character = { add_trait = defense_in_depth_specialist }
 	}
 	option = {
 		name = resupply_commander
-		trigger = { scope:233_target_character = { has_role = general not = { has_trait = resupply_commander } } }
+		trigger = { scope:233_target_character = { has_role_of_type = general not = { has_trait = resupply_commander } } }
 		scope:233_target_character = { add_trait = resupply_commander }
 	}
 	option = {
 		name = forest_commander
-		trigger = { scope:233_target_character = { has_role = general not = { has_trait = forest_commander } } }
+		trigger = { scope:233_target_character = { has_role_of_type = general not = { has_trait = forest_commander } } }
 		scope:233_target_character = { add_trait = forest_commander }
 	}
 	option = {
 		name = plains_commander
-		trigger = { scope:233_target_character = { has_role = general not = { has_trait = plains_commander } } }
+		trigger = { scope:233_target_character = { has_role_of_type = general not = { has_trait = plains_commander } } }
 		scope:233_target_character = { add_trait = plains_commander }
 	}
 	option = {
 		name = mountain_commander
-		trigger = { scope:233_target_character = { has_role = general not = { has_trait = mountain_commander } } }
+		trigger = { scope:233_target_character = { has_role_of_type = general not = { has_trait = mountain_commander } } }
 		scope:233_target_character = { add_trait = mountain_commander }
 	}
 	option = {
 		name = expert_artillery_commander
-		trigger = { scope:233_target_character = { has_role = general not = { has_trait = expert_artillery_commander } } }
+		trigger = { scope:233_target_character = { has_role_of_type = general not = { has_trait = expert_artillery_commander } } }
 		scope:233_target_character = { add_trait = expert_artillery_commander }
 	}
 	option = {
 		name = expert_offensive_planner
-		trigger = { scope:233_target_character = { has_role = general not = { has_trait = expert_offensive_planner } } }
+		trigger = { scope:233_target_character = { has_role_of_type = general not = { has_trait = expert_offensive_planner } } }
 		scope:233_target_character = { add_trait = expert_offensive_planner }
 	}
 	option = {
 		name = expert_defensive_strategist
-		trigger = { scope:233_target_character = { has_role = general not = { has_trait = expert_defensive_strategist } } }
+		trigger = { scope:233_target_character = { has_role_of_type = general not = { has_trait = expert_defensive_strategist } } }
 		scope:233_target_character = { add_trait = expert_defensive_strategist }
 	}
 	option = {
 		name = expert_naval_commander
-		trigger = { scope:233_target_character = { has_role = admiral not = { has_trait = expert_naval_commander } } }
+		trigger = { scope:233_target_character = { has_role_of_type = admiral not = { has_trait = expert_naval_commander } } }
 		scope:233_target_character = { add_trait = expert_naval_commander }
 	}
 	option = {
 		name = expert_convoy_raider
-		trigger = { scope:233_target_character = { has_role = admiral not = { has_trait = expert_convoy_raider } } }
+		trigger = { scope:233_target_character = { has_role_of_type = admiral not = { has_trait = expert_convoy_raider } } }
 		scope:233_target_character = { add_trait = expert_convoy_raider }
 	}
 	option = {
 		name = traditionalist_commander
-		trigger = { scope:233_target_character = { or = { has_role = general has_role = admiral } not = { has_trait = traditionalist_commander } } }
+		trigger = { scope:233_target_character = { or = { has_role_of_type = general has_role_of_type = admiral } not = { has_trait = traditionalist_commander } } }
 		scope:233_target_character = { add_trait = traditionalist_commander }
 	}
 	option = {
 		name = popular_commander
-		trigger = { scope:233_target_character = { or = { has_role = general has_role = admiral } not = { has_trait = popular_commander } } }
+		trigger = { scope:233_target_character = { or = { has_role_of_type = general has_role_of_type = admiral } not = { has_trait = popular_commander } } }
 		scope:233_target_character = { add_trait = popular_commander }
 	}
 	option = {
 		name = celebrity_commander
-		trigger = { scope:233_target_character = { or = { has_role = general has_role = admiral } not = { has_trait = celebrity_commander } } }
+		trigger = { scope:233_target_character = { or = { has_role_of_type = general has_role_of_type = admiral } not = { has_trait = celebrity_commander } } }
 		scope:233_target_character = { add_trait = celebrity_commander }
 	}
 	option = {
 		name = dockyard_master
-		trigger = { scope:233_target_character = { has_role = admiral not = { has_trait = dockyard_master } } }
+		trigger = { scope:233_target_character = { has_role_of_type = admiral not = { has_trait = dockyard_master } } }
 		scope:233_target_character = { add_trait = dockyard_master }
 	}
 	option = {
 		name = masterful_diplomat
-		trigger = { scope:233_target_character = { or = { has_role = ruler has_role = heir has_role = politician } not = { has_trait = masterful_diplomat } } }
+		trigger = { scope:233_target_character = { or = { has_role_of_type = ruler has_role_of_type = heir has_role_of_type = politician } not = { has_trait = masterful_diplomat } } }
 		scope:233_target_character = { add_trait = masterful_diplomat }
 	}
 	option = {
 		name = expert_colonial_administrator
-		trigger = { scope:233_target_character = { or = { has_role = ruler has_role = heir has_role = politician } not = { has_trait = expert_colonial_administrator } } }
+		trigger = { scope:233_target_character = { or = { has_role_of_type = ruler has_role_of_type = heir has_role_of_type = politician } not = { has_trait = expert_colonial_administrator } } }
 		scope:233_target_character = { add_trait = expert_colonial_administrator }
 	}
 	option = {
 		name = expert_political_operator
-		trigger = { scope:233_target_character = { or = { has_role = ruler has_role = heir has_role = politician } not = { has_trait = expert_political_operator } } }
+		trigger = { scope:233_target_character = { or = { has_role_of_type = ruler has_role_of_type = heir has_role_of_type = politician } not = { has_trait = expert_political_operator } } }
 		scope:233_target_character = { add_trait = expert_political_operator }
 	}
 	option = {
 		name = firebrand
-		trigger = { scope:233_target_character = { or = { has_role = ruler has_role = heir has_role = politician } not = { has_trait = firebrand } } }
+		trigger = { scope:233_target_character = { or = { has_role_of_type = ruler has_role_of_type = heir has_role_of_type = politician } not = { has_trait = firebrand } } }
 		scope:233_target_character = { add_trait = firebrand }
 	}
 	option = {
@@ -2395,17 +2250,17 @@ namespace = 233_events
 	}
 	option = {
 		name = literary
-		trigger = { scope:233_target_character = { or = { has_role = ruler has_role = heir has_role = politician } not = { has_trait = literary } } }
+		trigger = { scope:233_target_character = { or = { has_role_of_type = ruler has_role_of_type = heir has_role_of_type = politician } not = { has_trait = literary } } }
 		scope:233_target_character = { add_trait = literary }
 	}
 	option = {
 		name = engineer
-		trigger = { scope:233_target_character = { or = { has_role = ruler has_role = heir has_role = politician } not = { has_trait = engineer } } }
+		trigger = { scope:233_target_character = { or = { has_role_of_type = ruler has_role_of_type = heir has_role_of_type = politician } not = { has_trait = engineer } } }
 		scope:233_target_character = { add_trait = engineer }
 	}
 	option = {
 		name = master_bureaucrat
-		trigger = { scope:233_target_character = { or = { has_role = ruler has_role = heir has_role = politician } not = { has_trait = master_bureaucrat } } }
+		trigger = { scope:233_target_character = { or = { has_role_of_type = ruler has_role_of_type = heir has_role_of_type = politician } not = { has_trait = master_bureaucrat } } }
 		scope:233_target_character = { add_trait = master_bureaucrat }
 	}
 	option = {
@@ -2552,9 +2407,9 @@ namespace = 233_events
 		scope:233_target_character = { set_ideology = ideology:ideology_traditionalist }
 	}
 	option = {
-		name = ideology_atheist
-		trigger = { scope:233_target_character = { not = { has_ideology = ideology_atheist } } }
-		scope:233_target_character = { set_ideology = ideology:ideology_atheist }
+		name = ideology_positivist
+		trigger = { scope:233_target_character = { not = { has_ideology = ideology_positivist } } }
+		scope:233_target_character = { set_ideology = ideology:ideology_positivist }
 	}
 	option = {
 		name = ideology_republican_leader
@@ -2755,7 +2610,7 @@ namespace = 233_events
 		name = 233_Exile
 		trigger = {
 		  not = { has_variable = 233_create_character }
-		  scope:233_target_character = { or = { has_role = general has_role = admiral has_role = politician } }
+		  scope:233_target_character = { or = { has_role_of_type = general has_role_of_type = admiral has_role_of_type = politician } }
 		}
 		hidden_effect = {
 		  scope:233_target_character = {
@@ -2775,7 +2630,7 @@ namespace = 233_events
 		name = 233_Exile
 		trigger = {
 		  has_variable = 233_create_character
-		  scope:233_target_character = { or = { has_role = general has_role = admiral has_role = politician } }
+		  scope:233_target_character = { or = { has_role_of_type = general has_role_of_type = admiral has_role_of_type = politician } }
 		}
 		hidden_effect = {
 		  scope:233_target_character = {
@@ -3216,11 +3071,11 @@ namespace = 233_events
 		  if = { limit = { exists = c:CHI } if = { limit = { not = { this = c:CHI } } annex = c:CHI change_tag = CHI } }
 		  else = { change_tag = CHI }
 		  set_country_type = recognized make_independent = yes
-			sr:region_france = { limit = { not = { any_scope_state = { owner = ROOT is_sea_adjacent = yes } } } random_scope_state = { limit = { is_sea_adjacent = yes } set_state_owner = ROOT } }
-			sr:region_north_germany = { limit = { not = { any_scope_state = { owner = ROOT is_sea_adjacent = yes } } } random_scope_state = { limit = { is_sea_adjacent = yes } set_state_owner = ROOT } }
-			sr:region_england = { limit = { not = { any_scope_state = { owner = ROOT is_sea_adjacent = yes } } } random_scope_state = { limit = { is_sea_adjacent = yes } set_state_owner = ROOT } }
-			sr:region_iberia = { limit = { not = { any_scope_state = { owner = ROOT is_sea_adjacent = yes } } } random_scope_state = { limit = { is_sea_adjacent = yes } set_state_owner = ROOT } }
-			sr:region_italy = { limit = { not = { any_scope_state = { owner = ROOT is_sea_adjacent = yes } } } random_scope_state = { limit = { is_sea_adjacent = yes } set_state_owner = ROOT } }
+			sr:region_western_europe = { limit = { not = { any_scope_state = { owner = ROOT is_sea_adjacent = yes } } } random_scope_state = { limit = { is_sea_adjacent = yes } set_state_owner = ROOT } }
+			sr:region_central_europe = { limit = { not = { any_scope_state = { owner = ROOT is_sea_adjacent = yes } } } random_scope_state = { limit = { is_sea_adjacent = yes } set_state_owner = ROOT } }
+			sr:region_western_europe = { limit = { not = { any_scope_state = { owner = ROOT is_sea_adjacent = yes } } } random_scope_state = { limit = { is_sea_adjacent = yes } set_state_owner = ROOT } }
+			sr:region_southern_europe = { limit = { not = { any_scope_state = { owner = ROOT is_sea_adjacent = yes } } } random_scope_state = { limit = { is_sea_adjacent = yes } set_state_owner = ROOT } }
+			sr:region_southern_europe = { limit = { not = { any_scope_state = { owner = ROOT is_sea_adjacent = yes } } } random_scope_state = { limit = { is_sea_adjacent = yes } set_state_owner = ROOT } }
 		}
 	}
 	option = {	#我有衅得
@@ -3258,7 +3113,7 @@ namespace = 233_events
 			if = { limit = { NOT = { has_technology_researched = pan-nationalism } } add_technology_researched = pan-nationalism }
 			every_state = { limit = { state_region = s:STATE_EASTERN_THRACE } set_state_owner = root set_state_type = incorporated }
 			every_state = {
-				limit = { or = { region = sr:region_arabic region = sr:region_nile_basin } state_region = { or = { is_homeland = cu:bedouin is_homeland = cu:mashriqi is_homeland = cu:misri is_homeland = cu:yemenite } } }
+				limit = { or = { region = sr:region_arabia region = sr:region_nile_basin } state_region = { or = { is_homeland = cu:bedouin is_homeland = cu:mashriqi is_homeland = cu:misri is_homeland = cu:yemenite } } }
 				set_state_owner = ROOT set_state_type = incorporated
 			}
 			if = { limit = { not = { exists = c:ARA } } add_primary_culture = cu:bedouin add_primary_culture = cu:mashriqi add_primary_culture = cu:misri add_primary_culture = cu:yemenite change_tag = ARA }
@@ -3387,16 +3242,16 @@ namespace = 233_events
 			every_country = {
 				limit = { is_ai = yes }
 				every_scope_state = { limit = { has_building = building_glassworks } remove_building = building_glassworks }
-				every_scope_state = { limit = { has_building = building_furniture_manufacturies } remove_building = building_furniture_manufacturies }
-				every_scope_state = { limit = { has_building = building_textile_mills } remove_building = building_textile_mills }
+				every_scope_state = { limit = { has_building = building_furniture_manufactory } remove_building = building_furniture_manufactory }
+				every_scope_state = { limit = { has_building = building_textile_mill } remove_building = building_textile_mill }
 			}
 			capital = {
 				create_building = { building = building_glassworks reserves = 1 }
-				create_building = { building = building_furniture_manufacturies reserves = 1 }
-				create_building = { building = building_textile_mills reserves = 1 }
+				create_building = { building = building_furniture_manufactory reserves = 1 }
+				create_building = { building = building_textile_mill reserves = 1 }
 				activate_production_method = { building_type = building_glassworks production_method = pm_ceramics }
-				activate_production_method = { building_type = building_furniture_manufacturies production_method = pm_luxury_furniture }
-				activate_production_method = { building_type = building_textile_mills production_method = pm_craftsman_sewing }
+				activate_production_method = { building_type = building_furniture_manufactory production_method = pm_luxury_furniture }
+				activate_production_method = { building_type = building_textile_mill production_method = pm_craftsman_sewing }
 			}
 		}
 	}
@@ -3414,13 +3269,13 @@ namespace = 233_events
 			every_state = {
 				limit = {
 					or = {
-						region = sr:region_dixie
-						region = sr:region_mexico
-						region = sr:region_the_midwest
+						region = sr:region_atlantic_coast
+						region = sr:region_central_america
+						region = sr:region_atlantic_coast
 						region = sr:region_great_plains
 						region = sr:region_canada
 						region = sr:region_pacific_coast
-						region = sr:region_new_england
+						region = sr:region_atlantic_coast
 						region = sr:region_la_plata
 						region = sr:region_andes
 						region = sr:region_brazil
@@ -3462,7 +3317,7 @@ namespace = 233_events
 		  else = { change_tag = AUS }
 		  set_country_type = recognized make_independent = yes
 		  if = { limit = { exists = c:PRU } annex = c:PRU }
-		  every_state = { limit = { state_region = s:STATE_SILESIA } set_state_owner = root set_state_type = incorporated }
+		  every_state = { limit = { state_region = { OR = { this = s:STATE_LOWER_SILESIA this = s:STATE_UPPER_SILESIA } } } set_state_owner = root set_state_type = incorporated }
 		}
 	}
 	option = {	#大博弈
@@ -3494,7 +3349,7 @@ namespace = 233_events
 		  if = { limit = { exists = c:MEX } if = { limit = { not = { this = c:MEX } } annex = c:MEX change_tag = MEX } }
 		  else = { change_tag = MEX }
 			set_country_type = recognized make_independent = yes
-			every_state = { limit = { OR = { region = sr:region_great_plains region = sr:region_pacific_coast region = sr:region_dixie } } set_state_owner = ROOT set_state_type = incorporated }
+			every_state = { limit = { OR = { region = sr:region_great_plains region = sr:region_pacific_coast region = sr:region_atlantic_coast } } set_state_owner = ROOT set_state_type = incorporated }
 			if = { limit = { exists = c:USA } annex = c:USA }
 			every_country = { limit = { is_ai = yes country_rank = rank_value:great_power } root = { annex = prev } }
 			}
@@ -3524,7 +3379,7 @@ namespace = 233_events
 		  if = { limit = { exists = c:ITA } if = { limit = { not = { this = c:ITA } } annex = c:ITA } }
 			if = { limit = { NOT = { has_technology_researched = nationalism } } add_technology_researched = nationalism }
 			every_country = { limit = { or = { country_has_primary_culture = cu:north_italian country_has_primary_culture = cu:south_italian } } trigger_event = { id = 233_events.903 } }
-			every_state = { limit = { region = sr:region_italy } set_state_owner = root set_state_type = incorporated }
+			every_state = { limit = { region = sr:region_southern_europe } set_state_owner = root set_state_type = incorporated }
 			add_primary_culture = cu:north_italian
 			add_primary_culture = cu:south_italian
 			change_tag = ITA
@@ -3537,7 +3392,7 @@ namespace = 233_events
 		  set_variable = 233_ACHIEVEMENT_broken_promises
 			set_country_type = recognized make_independent = yes
 			if = { limit = { not = { this = c:ITA } } annex = c:ITA change_tag = ITA }
-			every_state = { limit = { region = sr:region_italy } set_state_owner = root set_state_type = incorporated }
+			every_state = { limit = { region = sr:region_southern_europe } set_state_owner = root set_state_type = incorporated }
 			if = { limit = { exists = c:LOM } annex = c:LOM }
 			if = { limit = { exists = c:PAR } annex = c:PAR }
 			if = { limit = { exists = c:COR } annex = c:COR }
@@ -3717,12 +3572,12 @@ namespace = 233_events
 			if = { limit = { NOT = { has_technology_researched = military_aviation } } add_technology_researched = military_aviation }
 			if = { limit = { NOT = { has_technology_researched = mobile_armor } } add_technology_researched = mobile_armor }
 			capital = { 
-			  create_building = { building = building_war_machine_industry reserves = 1 } 
-			  activate_production_method = { building_type = building_war_machine_industry production_method = pm_tank_production }
+			  create_building = { building = building_automotive_industry reserves = 1 } 
+			  activate_production_method = { building_type = building_automotive_industry production_method = pm_tank_production }
 			  create_pop = { pop_type = laborers culture = finnish size = 1500 }
 			  create_pop = { pop_type = machinists culture = finnish size = 2000 }
 			  create_pop = { pop_type = engineers culture = finnish size = 1500 }
-			  if = { limit = { NOT = { has_modifier = 233_perkeletankki } } add_modifier = { name = 233_ACHIEVEMENT_perkeletankki months = short_modifier_time } }
+			  if = { limit = { NOT = { has_modifier = 233_ACHIEVEMENT_perkeletankki } } add_modifier = { name = 233_ACHIEVEMENT_perkeletankki months = short_modifier_time } }
 			}
 	  }
 	}
@@ -3732,12 +3587,12 @@ namespace = 233_events
 		hidden_effect = {
 		  set_variable = 233_ACHIEVEMENT_poppydock
 		  set_country_type = recognized make_independent = yes
-		  if = { limit = { any_scope_state = { is_sea_adjacent = yes count < 8 } } sr:region_japan = { every_scope_state = { limit = { is_sea_adjacent = yes } set_state_owner = ROOT } } }
+		  if = { limit = { any_scope_state = { is_sea_adjacent = yes count < 8 } } sr:region_northeast_asia = { every_scope_state = { limit = { is_sea_adjacent = yes } set_state_owner = ROOT } } }
 		  every_scope_state = { 
 		     limit = { is_sea_adjacent = yes }
 		     create_building = { building = building_port level = 5 reserves = 1 }
 		     create_building = { building = building_opium_plantation reserves = 1 } 
-			   if = { limit = { NOT = { has_modifier = 233_poppydock } } add_modifier = { name = 233_ACHIEVEMENT_poppydock months = short_modifier_time } }
+			   if = { limit = { NOT = { has_modifier = 233_ACHIEVEMENT_poppydock } } add_modifier = { name = 233_ACHIEVEMENT_poppydock months = short_modifier_time } }
 		  }
 		  every_state = {
         limit = { not = { owner = root } }
@@ -3752,11 +3607,10 @@ namespace = 233_events
 	          has_technology_researched = international_trade 
 	          not = { has_law = law_type:law_isolationism } 
 	          not = { is_country_type = decentralized } 
-	          or = { any_scope_state = { any_neighbouring_state = { owner = root } } and = { has_port = yes root = { has_port = yes } } }
+	          or = { any_scope_state = { any_neighbouring_state = { owner = root } } and = { has_port_country = yes root = { has_port_country = yes } } }
 	        } 
 	      }
         every_scope_culture = { add_cultural_obsession = opium }
-        create_trade_route = { goods = opium level = 30 direction = import target = root.market }
       }
 	  }
 	}
@@ -3875,7 +3729,7 @@ namespace = 233_events
 			}
 			else = { if = { limit = { not = { this = c:PRU } } play_as = c:PRU } }
 			if = { limit = { exists = c:PRU }
-			  every_state = { limit = { region = sr:region_north_germany } set_state_owner = c:PRU set_state_type = incorporated }
+			  every_state = { limit = { region = sr:region_central_europe } set_state_owner = c:PRU set_state_type = incorporated }
 			  if = { limit = { not = { exists = c:LUX } }
 			    every_state = { limit = { state_region = s:STATE_WALLONIA } set_state_owner = ROOT }
 			    random_scope_state = { limit = { state_region = s:STATE_WALLONIA } save_scope_as = 233_LUX }
@@ -3919,7 +3773,7 @@ namespace = 233_events
  create_building = { building = building_iron_mine level = 1 reserves = 1 } }
 		      every_scope_state = { limit = { any_scope_building = { is_building_type = building_coal_mine } } remove_building = building_coal_mine create_building = { building = building_coal_mine level = 1 reserves = 1 } }
 		      capital = {
-		      	create_building = { building = building_steel_mills level = 4 reserves = 1 }
+		      	create_building = { building = building_steel_mill level = 4 reserves = 1 }
 				    create_building = { building = building_motor_industry level = 4 reserves = 1 }
 				    create_building = { building = building_coal_mine level = 1 reserves = 1 }
 				    create_pop = { size = 1600 literacy_rate = 1 pop_type = capitalists }
@@ -3931,7 +3785,7 @@ namespace = 233_events
 		      activate_production_method = { building_type = building_wheat_farm production_method = pm_tractors }
 		      activate_production_method = { building_type = building_maize_farm production_method = pm_tractors }
 		      activate_production_method = { building_type = building_millet_farm production_method = pm_tractors }
-		      activate_production_method = { building_type = building_coal_mine production_method = pm_steam_donkey_mine }
+		      activate_production_method = { building_type = building_coal_mine production_method = pm_steam_donkey_building_coal_mine }
 		      activate_production_method = { building_type = building_iron_mine production_method = pm_steam_donkey_mine }
 		      activate_production_method = { building_type = building_lead_mine production_method = pm_steam_donkey_mine }
 		      activate_production_method = { building_type = building_sulfur_mine production_method = pm_steam_donkey_mine }
@@ -4351,7 +4205,7 @@ namespace = 233_events
 		      tag = ESS origin = this state = scope:233_ESS
 		      on_created = {
 					  create_character = { first_name = "Saratoga" last_name = "ESS"  culture = cu:ESS age = 16 noble = yes ruler = yes ig_leader = yes interest_group = ig_landowners female = yes ideology = ideology_moderate traits = { charismatic ambitious } on_created = { set_variable = 233_Saratoga } }
-					  ig:ig_landowners = { add_ruling_interest_group = yes set_interest_group_name = ig_233 remove_ideology = ideology_paternalistic remove_ideology = ideology_stratocratic remove_ideology = ideology_patriarchal add_ideology = ideology_233_1 add_ideology = ideology_233_2 add_ideology = ideology_233_3 }
+					  ig:ig_landowners = { add_ruling_interest_group = yes set_interest_group_name = ig_233 remove_ideology = ideology_paternalistic remove_ideology = ideology_hierarchic remove_ideology = ideology_patriarchal add_ideology = ideology_233_1 add_ideology = ideology_233_2 add_ideology = ideology_233_3 }
 					  ig:ig_rural_folk = { remove_ideology = ideology_agrarian remove_ideology = ideology_particularist remove_ideology = ideology_isolationist add_ideology = ideology_233_1 add_ideology = ideology_233_2 add_ideology = ideology_233_3 }
 					  ig:ig_devout = { remove_ideology = ideology_pious remove_ideology = ideology_moralist remove_ideology = ideology_patriarchal add_ideology = ideology_233_1 add_ideology = ideology_233_2 add_ideology = ideology_233_3 }
 					  ig:ig_industrialists = { remove_ideology = ideology_plutocratic remove_ideology = ideology_laissez_faire remove_ideology = ideology_individualist add_ideology = ideology_233_1 add_ideology = ideology_233_2 add_ideology = ideology_233_3 }
@@ -4604,7 +4458,7 @@ namespace = 233_events
 		  if = {
 		    limit = {
 		      any_scope_character = {
-		        is_heir = yes
+		        is_heir_of_own_country = yes
 		        not = { has_variable = 233_Saratoga }
 		      }
 		    }

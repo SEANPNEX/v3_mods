@@ -38,8 +38,7 @@ ideology_233_2 = {
 		law_womens_suffrage = strongly_approve
 	}
 	lawgroup_labor_rights = {
-		law_serfdom = strongly_disapprove
-		law_serfdom_banned = neutral
+		law_no_workers_rights = strongly_disapprove
 		law_regulatory_bodies = strongly_approve
 		law_worker_protections = strongly_approve
 	}

@@ -2,7 +2,7 @@
   "name" : "233自用整合",
 	"id" : "",
   "version" : "",
-  "supported_game_version" : "1.8.*",
+  "supported_game_version" : "1.14.*",
   "picture":"thumbnail.png",
   "short_description" : "",
   "tags" : [],

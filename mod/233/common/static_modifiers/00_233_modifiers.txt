@@ -5,8 +5,7 @@
 
 233_super_colony = {	
 	country_tension_decay_mult = 10.0
-	country_max_declared_interests_add = 10
-	state_colony_growth_creation_mult = 100000
+	state_colony_growth_creation_factor = 100
 	state_colony_growth_speed_mult = 100000
 	state_non_homeland_colony_growth_speed_mult = 100000
 }
@@ -44,7 +43,7 @@
 }
 
 233_tech = { #科技
-	technology_invention_cost_mult = -0.95         #科技花费
+	country_tech_research_speed_mult = 19         #科技研究速度 (原: 科技花费 -95%)
 	country_weekly_innovation_add = 100        #创新
 	country_weekly_innovation_mult = 1			#创新加成
 	country_tech_spread_add = 1000       #科技扩散
@@ -65,7 +64,6 @@
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	state_birth_rate_mult = 1.5 #出生率
 	state_mortality_mult = -1
-	state_accepted_birth_rate_mult = 2
 	state_working_adult_ratio_add = 0.3
 }
 
@@ -78,33 +76,28 @@
 
 233_army = {
 	character_command_limit_mult = 2			#指挥上限乘数
-	character_morale_cap_add = 25			#士气上限
-	front_advancement_speed_add = 10			#前线进展速度
-	front_advancement_speed_mult = 2			#前线进展速度上限
 	unit_army_offense_add = 2 			#陆军推进
 	unit_army_offense_mult = 2 			#陆军推进
 	unit_army_defense_add = 2			#陆军防御
 	unit_army_defense_mult = 2			#军队防御
 	unit_kill_rate_add = 0.1 			#杀戮率
-	country_war_exhaustion_casualties_mult = -0.4			#伤亡造成的厌战度
+	country_war_support_casualties_mult = -0.4			#伤亡造成的战争支持度损失
 	building_mobilization_cost_mult = -0.4			#动员商品需求
 	unit_recovery_rate_add = 0.6			#陆军恢复速率
-	country_army_power_projection_mult = 1			#军队投射
+	country_prestige_from_army_power_projection_mult = 1			#军队投射带来的威望
 	building_training_rate_add = 20 			#训练率
 	country_military_wages_mult = -0.5 			#军队工资
 }
 
 233_navy = {
-	state_port_range_add = 2			#军港范围
-	unit_convoy_raiding_mult = 2 			#商船袭击效率
-	unit_navy_offense_add = 2			#海军进攻
-	unit_navy_defense_add = 2			#海军防守
-	unit_navy_offense_mult = 2			#海军攻击（百分比
-	unit_navy_defense_mult = 2			#海军防御（百分比
-	unit_morale_protection_mult = 2			#士气维持
-	building_naval_base_throughput_mult = 2			#军港吞吐量
-	battle_navy_recovery_rate_add = 2				#恢复
-	country_navy_power_projection_mult = 1	#海军力量投射（百分比
+	character_convoy_raiding_mult = 2 			#商船袭击效率
+	ship_hull_damage_mult = 2			#舰船船体伤害
+	ship_armor_mult = 2			#舰船装甲
+	ship_crew_damage_mult = 2			#舰船船员伤害
+	ship_hit_points_max_mult = 2			#舰船生命值上限
+	unit_morale_loss_mult = -0.66			#士气损失
+	building_naval_administration_throughput_add = 2			#海军管理吞吐量
+	country_prestige_from_navy_power_projection_mult = 1	#海军力量投射带来的威望
 }
 
 #军队
@@ -165,24 +158,24 @@
 }
 
 233_ACHIEVEMENT_perkeletankki = {
-	building_output_tanks_mult = 10.0
-	building_input_mult = -1
+	goods_output_tanks_mult = 10.0
+	building_goods_input_mult = -1
 }
 233_ACHIEVEMENT_poppydock = {
-	building_opium_plantation_throughput_mult = 1000.0
+	building_opium_plantation_throughput_add = 1000.0
 }
 233_ACHIEVEMENT_billionare = {
-	building_gold_mine_throughput_mult = 10000.0
-	building_input_mult = -1
+	building_gold_mine_throughput_add = 10000.0
+	building_goods_input_mult = -1
 }
 
 0_consumption_buff = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_input_mult = -1
+	building_goods_input_mult = -1
 }
 10_throughput_buff = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_throughput_mult = 10
+	building_throughput_add = 10
 }
 
 
@@ -246,35 +239,35 @@
 	country_legitimacy_base_add = 100		#国家派系合法性修正
 	character_popularity_add = 100		#人气
 	country_law_enactment_success_add = 0.95 #法律通过率
-	country_law_enactment_time_mult = -0.90 #法律时间 
+	country_law_enactment_speed_mult = 9 #法律通过速度 (原: 法律时间 -90%)
 	interest_group_approval_add = 50 #利益集团支持度
 	country_prestige_mult = 1.0 #国家威望
-	building_input_mult = -0.95 #工厂原材料输入
-	building_throughput_mult = 2 # 工厂产出
+	building_goods_input_mult = -0.95 #工厂原材料输入
+	building_throughput_add = 2 # 工厂产出
 	state_migration_pull_mult = 1.0 #移民吸引力
-	state_radicals_from_sol_change_mult = -0.5   #生活水平所影响的激进派
+	state_radicals_and_loyalists_from_sol_change_mult = -0.5   #生活水平所影响的激进派
 	state_infrastructure_add = 1000 #基础建设
 	unit_defense_mult = 10				#部队防御（百分比
 	unit_offense_mult = 10				#部队攻击（百分比
-	state_poor_expected_sol = -99			#劳工阶层需求
-	state_middle_expected_sol = -95		#中产阶层需求
-	state_rich_expected_sol = -90			#富裕阶层需求
+	state_lower_strata_expected_sol_add = -99			#劳工阶层需求
+	state_middle_strata_expected_sol_add = -95		#中产阶层需求
+	state_upper_strata_expected_sol_add = -90			#富裕阶层需求
 	state_expected_sol_from_literacy = -80	#识字率对需求的影响
-	country_trade_route_competitiveness_mult = 2			#贸易路线竞争力
-	country_trade_route_quantity_mult = 2			#贸易路线交易量
+	state_trade_advantage_mult = 2			#贸易优势
+	state_trade_capacity_mult = 2			#贸易容量
 	country_expenses_add = -5000			#政府支出
-	building_group_bg_service_throughput_mult = 2 			#服务产出
-	building_government_administration_throughput_mult = 2 			#政府管理吞吐量
+	building_group_bg_service_throughput_add = 2 			#服务产出
+	building_government_administration_throughput_add = 2 			#政府管理吞吐量
 	country_government_wages_mult = -0.5 			#政府工资
-	building_group_bg_manufacturing_throughput_mult = 2 		#制造业吞吐
-	building_group_bg_plantations_throughput_mult = 2 			#种植园吞吐
-	building_group_bg_agriculture_throughput_mult = 2 			#农业吞吐
-	building_group_bg_oil_extraction_throughput_mult = 2 		#油吞吐
-	building_group_bg_mining_throughput_mult = 2
-	building_group_bg_logging_throughput_mult = 2
-	building_group_bg_fishing_throughput_mult = 2
-	building_group_bg_whaling_throughput_mult = 2
-	building_group_bg_ranching_throughput_mult = 2
+	building_group_bg_manufacturing_throughput_add = 2 		#制造业吞吐
+	building_group_bg_plantations_throughput_add = 2 			#种植园吞吐
+	building_group_bg_agriculture_throughput_add = 2 			#农业吞吐
+	building_group_bg_oil_extraction_throughput_add = 2 		#油吞吐
+	building_group_bg_mining_throughput_add = 2
+	building_group_bg_logging_throughput_add = 2
+	building_group_bg_fishing_throughput_add = 2
+	building_group_bg_whaling_throughput_add = 2
+	building_group_bg_ranching_throughput_add = 2
 	state_standard_of_living_add = 10
 }
 

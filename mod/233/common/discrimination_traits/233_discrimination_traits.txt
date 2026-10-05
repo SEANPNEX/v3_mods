@@ -1,3 +1,4 @@
 another_dimension = {
-	heritage = yes
+	type = heritage
+	trait_group = heritage_group_european
 }
