@@ -1,0 +1,257 @@
+﻿pm_more_local_population_population_center_base = {
+	texture = "gfx/interface/icons/production_method_icons/scholastic_education.dds"
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 240
+		}
+	}	
+	state_modifiers = {
+		workforce_scaled = {
+				state_pollution_generation_add = 1
+				state_tax_capacity_add = 600
+				state_pop_qualifications_mult = 0.6
+            }
+            level_scaled = {
+                state_birth_rate_mult = 0.1
+			}
+		
+		}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_output_rubber_add = 1
+			goods_output_oil_add = 1
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 100
+		}
+		unscaled = {
+
+		}
+	}
+	}
+
+pm_more_local_population_population_center_advanced = {
+	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	unlocking_technologies = { 
+		electrical_generation 
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 240
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+				state_pollution_generation_add = 0
+				state_tax_capacity_add = 600
+				state_pop_qualifications_mult = 0.6
+            }
+            level_scaled = {
+                state_birth_rate_mult = 0.15
+			}
+			unscaled = {
+				state_construction_mult = 0.1
+			}
+		}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_output_rubber_add = 60
+			goods_output_oil_add = 60
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 100
+		}
+	}
+	}
+
+pm_more_local_population_population_center_super = {
+	texture = "gfx/interface/icons/production_method_icons/analytical_philosophy_department.dds"
+	unlocking_technologies = {
+		electric_railway
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 240
+		}
+	}	
+	state_modifiers = {
+		workforce_scaled = {
+				state_pollution_generation_add = -1
+				state_tax_capacity_add = 600
+				state_pop_qualifications_mult = 0.6
+            }
+        level_scaled = {
+                state_birth_rate_mult = 0.2
+			}
+		unscaled = {
+			state_construction_mult = 0.2
+		}	
+		}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_output_rubber_add = 100
+			goods_output_oil_add = 100
+			goods_output_iron_add = 30
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 100
+		}
+	}
+	}
+
+# ###########################################
+# Elimination
+# ###########################################
+
+pm_more_local_population_elinmination_center_base = {
+	texture = "gfx/interface/icons/production_method_icons/butchering_tools.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 600
+		}
+		level_scaled = {
+			state_mortality_mult = 0.03
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10
+			# output goods
+			goods_output_coal_add = 1
+			goods_output_meat_add = 1
+			goods_output_oil_add = 1
+			goods_output_fish_add = 1
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+		}
+
+		# unscaled = {
+		# 	building_laborers_mortality_mult = 0.8
+		# }
+	}
+}
+
+pm_more_local_population_elinmination_center_advanced = {
+	texture = "gfx/interface/icons/production_method_icons/slaughterhouses.dds"
+	unlocking_technologies = {
+		dynamite
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 600
+		}
+		level_scaled = {
+			state_mortality_mult = 0.05
+		}
+		unscaled = {
+			state_construction_mult = 0.1
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10
+			# output goods
+			goods_output_coal_add = 30
+			goods_output_meat_add = 30
+			goods_output_oil_add = 60
+			goods_output_iron_add = 60
+			goods_output_fish_add = 30
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+		}
+
+		# unscaled = {
+		# 	building_laborers_mortality_mult = 0.8
+		# }
+	}
+}
+
+pm_more_local_population_elinmination_center_super = {
+	texture = "gfx/interface/icons/production_method_icons/mechanized_slaughtering.dds"
+	unlocking_technologies = { 
+		aniline
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 600
+		}
+		level_scaled = {
+			state_mortality_mult = 0.06
+		}
+		unscaled = {
+			state_construction_mult = 0.2
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10
+			# output goods
+			goods_output_coal_add = 60
+			goods_output_meat_add = 50
+			goods_output_oil_add = 100
+			goods_output_fish_add = 50
+			goods_output_iron_add = 60
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+		}
+
+		# unscaled = {
+		# 	building_laborers_mortality_mult = 0.8
+		# }
+	}
+}
+
+
+pm_more_local_population_elinmination_center_tremendous = {
+	texture = "gfx/interface/icons/production_method_icons/mechanized_slaughtering.dds"
+	unlocking_technologies = {
+		aniline
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 600
+		}
+		level_scaled = {
+			state_mortality_mult = 0.2
+		}
+		unscaled = {
+			state_construction_mult = 0.2
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10
+			# output goods
+			goods_output_coal_add = 60
+			goods_output_meat_add = 80
+			goods_output_oil_add = 120
+			goods_output_iron_add = 60
+			goods_output_fish_add = 80
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+		}
+
+		# unscaled = {
+		# 	building_laborers_mortality_mult = 0.8
+		# }
+	}
+}

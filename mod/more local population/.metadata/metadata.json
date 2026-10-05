@@ -1,0 +1,13 @@
+{
+  "name" : "more local population人矿生产中心",
+	"id" : "",
+  "version" : "",
+  "supported_game_version" : "1.8.*",
+  "picture":"thumbnail.png",
+  "short_description" : "",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
