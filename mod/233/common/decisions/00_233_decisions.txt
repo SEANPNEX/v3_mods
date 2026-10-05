@@ -136,14 +136,14 @@
 	is_shown = { is_ai = no has_variable = 233_ig_on NOT = { has_variable = 233_ig_determine } NOT = { has_global_variable = 233_Lightweight_version } }
 	ai_chance = { base = 0 }
 	when_taken = {
-		if = { limit = { has_variable = 233_ig_armed_forces_on } create_character = { ig_leader = yes interest_group = ig_armed_forces female = no ideology = ideology_atheist } 233_ig_clean = yes set_variable = 233_ig_determine } 
-		else_if = { limit = { has_variable = 233_ig_devout_on } create_character = { ig_leader = yes interest_group = ig_devout female = no ideology = ideology_atheist } 233_ig_clean = yes set_variable = 233_ig_determine } 
-		else_if = { limit = { has_variable = 233_ig_industrialists_on } create_character = { ig_leader = yes interest_group = ig_industrialists female = no ideology = ideology_atheist } 233_ig_clean = yes set_variable = 233_ig_determine } 
-		else_if = { limit = { has_variable = 233_ig_intelligentsia_on } create_character = { ig_leader = yes interest_group = ig_intelligentsia female = no ideology = ideology_atheist } 233_ig_clean = yes set_variable = 233_ig_determine } 
-		else_if = { limit = { has_variable = 233_ig_landowners_on } create_character = { ig_leader = yes interest_group = ig_landowners female = no ideology = ideology_atheist } 233_ig_clean = yes set_variable = 233_ig_determine } 
-		else_if = { limit = { has_variable = 233_ig_petty_bourgeoisie_on } create_character = { ig_leader = yes interest_group = ig_petty_bourgeoisie female = no ideology = ideology_atheist } 233_ig_clean = yes set_variable = 233_ig_determine } 
-		else_if = { limit = { has_variable = 233_ig_rural_folk_on } create_character = { ig_leader = yes interest_group = ig_rural_folk female = no ideology = ideology_atheist } 233_ig_clean = yes set_variable = 233_ig_determine } 
-		else_if = { limit = { has_variable = 233_ig_trade_unions_on } create_character = { ig_leader = yes interest_group = ig_trade_unions female = no ideology = ideology_atheist } 233_ig_clean = yes set_variable = 233_ig_determine } 
+		if = { limit = { has_variable = 233_ig_armed_forces_on } create_character = { ig_leader = yes interest_group = ig_armed_forces female = no ideology = ideology_positivist } 233_ig_clean = yes set_variable = 233_ig_determine } 
+		else_if = { limit = { has_variable = 233_ig_devout_on } create_character = { ig_leader = yes interest_group = ig_devout female = no ideology = ideology_positivist } 233_ig_clean = yes set_variable = 233_ig_determine } 
+		else_if = { limit = { has_variable = 233_ig_industrialists_on } create_character = { ig_leader = yes interest_group = ig_industrialists female = no ideology = ideology_positivist } 233_ig_clean = yes set_variable = 233_ig_determine } 
+		else_if = { limit = { has_variable = 233_ig_intelligentsia_on } create_character = { ig_leader = yes interest_group = ig_intelligentsia female = no ideology = ideology_positivist } 233_ig_clean = yes set_variable = 233_ig_determine } 
+		else_if = { limit = { has_variable = 233_ig_landowners_on } create_character = { ig_leader = yes interest_group = ig_landowners female = no ideology = ideology_positivist } 233_ig_clean = yes set_variable = 233_ig_determine } 
+		else_if = { limit = { has_variable = 233_ig_petty_bourgeoisie_on } create_character = { ig_leader = yes interest_group = ig_petty_bourgeoisie female = no ideology = ideology_positivist } 233_ig_clean = yes set_variable = 233_ig_determine } 
+		else_if = { limit = { has_variable = 233_ig_rural_folk_on } create_character = { ig_leader = yes interest_group = ig_rural_folk female = no ideology = ideology_positivist } 233_ig_clean = yes set_variable = 233_ig_determine } 
+		else_if = { limit = { has_variable = 233_ig_trade_unions_on } create_character = { ig_leader = yes interest_group = ig_trade_unions female = no ideology = ideology_positivist } 233_ig_clean = yes set_variable = 233_ig_determine } 
 		else = { 233_ig_clean = yes set_variable = 233_ig_determine }
 	}
 }
@@ -406,7 +406,7 @@
 	is_shown = { is_ai = no has_variable = 233_additional_decisions }
 	ai_chance = { base = 0 }
 	when_taken = {
-		every_scope_character = { limit = { has_role = general is_ruler = no } save_scope_as = 233_kill_general }
+		every_scope_character = { limit = { has_role_of_type = general is_ruler_of_own_country = no } save_scope_as = 233_kill_general }
 		scope:233_kill_general = { kill_character = yes }
 	}
 }
@@ -414,7 +414,7 @@
 	is_shown = { is_ai = no has_variable = 233_additional_decisions }
 	ai_chance = { base = 0 }
 	when_taken = {
-		every_scope_character = { limit = { has_role = admiral is_ruler = no } save_scope_as = 233_kill_admiral }
+		every_scope_character = { limit = { has_role_of_type = admiral is_ruler_of_own_country = no } save_scope_as = 233_kill_admiral }
 		scope:233_kill_admiral = { kill_character = yes }
 	}
 }

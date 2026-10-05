@@ -1,7 +1,9 @@
 ESS={
 	color= rgb{ 0 0 255 }
 	religion = ESS
-	traits = { european_heritage another_dimension }
+	heritage = another_dimension
+	language = language_anglophone
+	traditions = {}
 	male_common_first_names = {
 		Albert Alexander Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Alvin August Abraham Abel Abijah Alonzo Ansel Amos Absalom
 		Benjamin Bartholomew Byron Benedict Barnabas Bildad

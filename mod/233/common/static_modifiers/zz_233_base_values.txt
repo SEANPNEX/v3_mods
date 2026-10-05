@@ -1,0 +1,8 @@
+﻿# Changes to vanilla base_values. INJECT adds these values on top of vanilla's,
+# so the rest of base_values (and every other static modifier) stays as in the current game version.
+INJECT:base_values = {
+	# 每周建造上限: vanilla 10 -> 155
+	country_max_weekly_construction_progress_add = 145
+	# no local price: vanilla 0.75 -> 1.15
+	state_market_access_price_impact = 0.4
+}

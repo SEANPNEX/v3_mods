@@ -12,7 +12,11 @@ This mod increases resource availability. By default:
 - Gold mines are **3 times** the original.
 
 I have added a Python script to make these modifications in the mod folder.
-Simply copy the original `state_regions/` folder from the game directory under `map_data`, and adjust the `MULT` variables in the script to customize the changes as you like.
+Adjust the `MULT` variables in the script, then run it with the game's `state_regions` folder, e.g.
+`python create_more_resource.py "<Victoria 3>/game/map_data/state_regions"`.
+The result is written to `map_data/state_regions/`. (Running it without an argument multiplies the files already in `state_regions/` in place.)
+
+The included files are generated from Victoria 3 1.14.5. Re-run the script after a game update that changes the map.
 
 受 “更多可耕地” 模组启发。作者仍为V3mod初学者。如有bug请留言。
 
@@ -26,4 +30,7 @@ Simply copy the original `state_regions/` folder from the game directory under `
 - 金矿资源是原来的 **3 倍**。
 
 我已经将一个用于这些修改的 Python 脚本添加到模组文件夹中。
-只需将游戏文件夹中 `map_data` 下的原始 `state_regions/` 文件夹复制到模组文件夹，并修改脚本中的 `MULT` 变量，即可根据自己的需求进行调整。
+修改脚本中的 `MULT` 变量后，以游戏的 `state_regions` 文件夹为参数运行，例如
+`python create_more_resource.py "<Victoria 3>/game/map_data/state_regions"`，结果会写入 `map_data/state_regions/`。（不带参数运行时，会直接放大 `state_regions/` 中已有的文件。）
+
+当前附带的文件基于 Victoria 3 1.14.5 生成。游戏更新地图后请重新运行脚本。

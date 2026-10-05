@@ -11,7 +11,7 @@
 233_super_traits = {
 	type = condition
 	texture = "gfx/interface/icons/character_trait_icons/arrogant.dds"
-	character_modifier = {
+	command_modifier = {
 		battle_offense_owned_province_mult = 0.5
 		battle_defense_owned_province_mult = 0.6
 		character_battle_condition_charted_terrain_mult = 2
@@ -20,18 +20,17 @@
 		character_battle_condition_broken_supply_line_mult = -0.9
 		character_battle_condition_aggressive_maneuver_mult = 1
 		character_battle_condition_mud_mult = -0.5
-		character_supply_route_cost_mult = -0.5
-  	character_battle_condition_careful_maneuver_mult = 0.5
-		character_battle_condition_surprise_maneuver_mult = 0.5	
-    character_battle_condition_dug_in_mult = 2
+		character_battle_condition_careful_maneuver_mult = 0.5
+		character_battle_condition_surprise_maneuver_mult = 0.5
+		character_battle_condition_dug_in_mult = 2
 		character_battle_condition_camouflaged_mult = 2
-		unit_morale_protection_mult = 0.5
- 		unit_offense_mult = 0.25
- 		unit_defense_add = 45
- 		unit_supply_consumption_mult = -0.66
- 		unit_devastation_mult = 0.45
- 		unit_offense_flat_mult = 0.55
- 		unit_defense_forested_mult = 0.65	
+		unit_morale_loss_mult = -0.33
+		unit_offense_mult = 0.25
+		unit_defense_add = 45
+		unit_supply_consumption_mult = -0.66
+		unit_devastation_mult = 0.45
+		unit_offense_flat_mult = 0.55
+		unit_defense_forested_mult = 0.65
 	}
 	possible = { age > 999 }
 }
