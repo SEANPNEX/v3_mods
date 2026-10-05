@@ -1,3 +1,13 @@
+更新 10/5/2026
+
+支持1.14.*。移除了 `common/buildings/07_government.txt` 中复制的原版建筑（港口、政府管理机构、大学、摩天大楼，来自1.8.2版本），这些旧副本会与新版原版建筑冲突；mod的两个建筑移到 `more_local_population_buildings.txt`。删除了重复的本地化文件 `more_pop.yml`。
+
+Update 10/5/2026
+
+Supports 1.14.*. Removed the copied vanilla buildings (port, government administration, university, skyscraper from 1.8.2) that were in `common/buildings/07_government.txt` and would clash with the current vanilla definitions; the mod's two buildings now live in `more_local_population_buildings.txt`. Removed the duplicate `more_pop.yml` localization files.
+
+---
+
 更新 11/24/2024
 
 支持1.8.*，不再支持1.7
