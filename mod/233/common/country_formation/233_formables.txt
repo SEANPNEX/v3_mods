@@ -1,0 +1,15 @@
+ESS = {
+	use_culture_states = yes
+	# is_major_formation = yes
+    
+	required_states_fraction = 0.80
+	
+	ai_will_do = { always = no }
+
+	possible = {
+ 		NOT = { exists = c:ESS }
+	  any_country = {
+			country_has_primary_culture = cu:ESS
+		}
+	}
+}

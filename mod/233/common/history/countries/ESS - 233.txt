@@ -1,0 +1,46 @@
+﻿COUNTRIES = {
+	c:ESS = {
+		ig:ig_landowners = {
+		  add_ruling_interest_group = yes
+		  set_interest_group_name = ig_233
+		  remove_ideology = ideology_paternalistic
+		  remove_ideology = ideology_stratocratic
+		  remove_ideology = ideology_patriarchal
+		  add_ideology = ideology_233_1
+		  add_ideology = ideology_233_2
+		  add_ideology = ideology_233_3
+		}
+		add_era_researched = era_2
+		add_technology_researched = human_rights
+		add_technology_researched = feminism
+		set_tax_level = medium
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_regulatory_bodies
+		activate_law = law_type:law_compulsory_primary_school
+		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_ethnostate
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_proportional_taxation
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_public_health_insurance
+		activate_law = law_type:law_poor_laws
+		activate_law = law_type:law_women_in_the_workplace
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_secret_police
+		activate_law = law_type:law_migration_controls
+		set_institution_investment_level = { institution = institution_colonial_affairs level = 3 }
+		set_institution_investment_level = { institution = institution_social_security level = 3 }
+		set_institution_investment_level = { institution = institution_workplace_safety level = 3 }
+		set_institution_investment_level = { institution = institution_schools level = 5 }
+		set_institution_investment_level = { institution = institution_police level = 5 }
+		set_institution_investment_level = { institution = institution_health_system level = 4 }
+		set_institution_investment_level = { institution = institution_home_affairs level = 4 }
+	}
+}

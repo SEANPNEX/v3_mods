@@ -1,0 +1,427 @@
+
+
+233_Peng_Pai_character_template = {
+	first_name = "Pai"
+	last_name = "Peng"
+	culture = cu:han
+	female = no
+	ideology = ideology_communist
+	commander_rank = default
+	interest_group = ig_rural_folk
+	birth_date = 1896.10.22
+	traits = {
+		charismatic brave firebrand
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+		  exists = c:CHI
+			this = c:CHI
+			has_global_variable = 233_allow_creation
+		}
+		interest_group_trigger = {
+			ig_clout >= 0.1
+			is_interest_group_type = ig_rural_folk
+		}	
+		earliest_usage_date = 1921.5.1
+		latest_usage_date = 1929.8.30	
+		chance = 95
+	}	
+	commander_usage = {
+		country_trigger = {
+			exists = c:CHI
+			this = c:CHI
+			has_global_variable = 233_allow_creation
+		}
+		role = general
+		earliest_usage_date = 1921.5.1
+		latest_usage_date = 1929.8.30	
+		chance = 95
+	}	
+}
+
+
+233_Qu_Qiubai_character_template = {
+	first_name = "Qiubai"
+	last_name = "Qu"
+	culture = cu:han
+	female = no
+	ideology = ideology_communist
+	interest_group = ig_intelligentsia
+	birth_date = 1899.1.29
+	traits = {
+		cautious masterful_diplomat
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+		  exists = c:CHI
+			this = c:CHI
+			has_global_variable = 233_allow_creation
+		}
+		interest_group_trigger = {
+			ig_clout >= 0.1
+			is_interest_group_type = ig_intelligentsia
+		}	
+		earliest_usage_date = 1922.5.1
+		latest_usage_date = 1935.6.18	
+		chance = 95
+	}	
+}
+
+
+233_Vladimir_Ilyich_Lenin_character_template = {
+	first_name = "Vladimir_Ilyich"
+	last_name = "Lenin"
+	culture = cu:russian
+	female = no
+	ideology = ideology_vanguardist
+	interest_group = ig_trade_unions
+	birth_date = 1870.4.22
+	traits = {
+		charismatic expert_political_operator firebrand
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+		  exists = c:RUS
+			this = c:RUS
+			has_global_variable = 233_allow_creation
+		}
+		interest_group_trigger = {
+			ig_clout >= 0.1
+			is_interest_group_type = ig_trade_unions
+		}	
+		earliest_usage_date = 1893.8.1
+		latest_usage_date = 1924.1.21	
+		chance = 95
+	}	
+}
+
+
+233_Qiu_Jin_character_template = {
+	first_name = "233_Jin"
+	last_name = "233_Qiu"
+	culture = cu:han
+	female = no
+	ideology = ideology_feminist
+	interest_group = ig_landowners
+	birth_date = 1875.11.8
+	traits = {
+		 brave innovative 
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+		  exists = c:CHI
+			this = c:CHI
+			has_global_variable = 233_allow_creation
+		}
+		interest_group_trigger = {
+			ig_clout >= 0.1
+			OR = {
+				is_interest_group_type = ig_landowners
+				is_interest_group_type = ig_intelligentsia
+			}
+		}	
+		earliest_usage_date = 1896.1.1
+		latest_usage_date = 1907.7.15
+		chance = 95
+	}	
+}
+
+
+233_Zuo_Zongtang_character_template = {
+  first_name = "Zongtang"
+	last_name = "Zuo"
+	culture = cu:han
+	female = no
+	ideology = ideology_royalist
+	interest_group = ig_armed_forces
+	birth_date = 1812.11.10
+	traits = {
+		 charismatic 
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:CHI
+			this = c:CHI
+			has_global_variable = 233_allow_creation
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1885.9.5
+		chance = 95
+	}	
+}
+
+
+233_Liu_Mingchuan_character_template = {
+  first_name = "Mingchuan"
+	last_name = "Liu"
+	culture = cu:han
+	female = no
+	ideology = ideology_royalist
+	interest_group = ig_armed_forces
+	birth_date = 1836.9.7
+	traits = {
+		 charismatic 
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:CHI
+			this = c:CHI
+			has_global_variable = 233_allow_creation
+		}
+		role = general
+		earliest_usage_date = 1862.2.1
+		latest_usage_date = 1896.1.2
+		chance = 95
+	}	
+}
+
+
+233_Feng_Zicai_character_template = {
+  first_name = "Zicai"
+	last_name = "Feng"
+	culture = cu:han
+	female = no
+	ideology = ideology_royalist
+	interest_group = ig_armed_forces
+	birth_date = 1818.7.29
+	traits = {
+		 charismatic 
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:CHI
+			this = c:CHI
+			has_global_variable = 233_allow_creation
+		}
+		role = general
+		earliest_usage_date = 1850.1.1
+		latest_usage_date = 1903.9.18
+		chance = 95
+	}	
+}
+
+
+233_Zuo_Baogui_character_template = {
+  first_name = "Baogui"
+	last_name = "Zuo"
+	culture = cu:han
+	female = no
+	ideology = ideology_royalist
+	interest_group = ig_armed_forces
+	birth_date = 1837.10.18
+	traits = {
+		 charismatic 
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:CHI
+			this = c:CHI
+			has_global_variable = 233_allow_creation
+		}
+		role = general
+		earliest_usage_date = 1856.1.1
+		latest_usage_date = 1894.9.15
+		chance = 95
+	}	
+}
+
+
+233_Deng_Shichang_character_template = {
+  first_name = "Shichang"
+	last_name = "Deng"
+	culture = cu:han
+	female = no
+	ideology = ideology_royalist
+	interest_group = ig_armed_forces
+	birth_date = 1849.10.4
+	traits = {
+		 charismatic 
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:CHI
+			this = c:CHI
+			has_global_variable = 233_allow_creation
+		}
+		role = admiral
+		earliest_usage_date = 1867.1.1
+		latest_usage_date = 1894.9.17
+		chance = 95
+	}	
+}
+
+
+233_Bai_Lang_character_template = {
+	first_name = "Lang"
+	last_name = "Bai"
+	culture = cu:han
+	female = no
+	ideology = ideology_radical
+	commander_rank = default
+	interest_group = ig_rural_folk
+	birth_date = 1873.1.1
+	traits = {
+		persistent brave firebrand
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+		  exists = c:CHI
+			this = c:CHI
+			has_global_variable = 233_allow_creation
+		}
+		interest_group_trigger = {
+			ig_clout >= 0.1
+			is_interest_group_type = ig_rural_folk
+		}	
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1914.8.1	
+		chance = 95
+	}	
+	commander_usage = {
+		country_trigger = {
+			exists = c:CHI
+			this = c:CHI
+			has_global_variable = 233_allow_creation
+		}
+		role = general
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1914.8.1
+		chance = 95
+	}	
+}
+
+
+233_Liu_Yongfu_character_template = {
+  first_name = "Yongfu"
+	last_name = "Liu"
+	culture = cu:han
+	female = no
+	ideology = ideology_ethno_nationalist
+	interest_group = ig_armed_forces
+	birth_date = 1837.10.10
+	traits = {
+		 persistent forest_commander mountain_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:CHI
+			this = c:CHI
+			has_global_variable = 233_allow_creation
+		}
+		role = general
+		earliest_usage_date = 1857.1.1
+		latest_usage_date = 1917.1.9
+		chance = 95
+	}	
+}
+
+
+233_Kang_Youwei_character_template = {
+	first_name = "Youwei"
+	last_name = "Kang"
+	culture = cu:han
+	female = no
+	ideology = ideology_reformer
+	interest_group = ig_landowners
+	birth_date = 1858.3.19
+	traits = {
+		cautious innovative
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+		  exists = c:CHI
+			this = c:CHI
+			has_global_variable = 233_allow_creation
+		}
+		interest_group_trigger = {
+			ig_clout >= 0.1
+			OR = {
+				is_interest_group_type = ig_landowners
+				is_interest_group_type = ig_intelligentsia
+			}
+		}	
+		earliest_usage_date = 1883.1.1
+		latest_usage_date = 1927.3.31	
+		chance = 95
+	}	
+}
+
+
+233_Liang_Qichao_character_template = {
+	first_name = "Qichao"
+	last_name = "Liang"
+	culture = cu:han
+	female = no
+	ideology = ideology_reformer
+	interest_group = ig_landowners
+	birth_date = 1873.2.23
+	traits = {
+		innovative basic_political_operator
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+		  exists = c:CHI
+			this = c:CHI
+			has_global_variable = 233_allow_creation
+		}
+		interest_group_trigger = {
+			ig_clout >= 0.1
+			OR = {
+				is_interest_group_type = ig_landowners
+				is_interest_group_type = ig_intelligentsia
+			}
+		}	
+		earliest_usage_date = 1890.9.1
+		latest_usage_date = 1929.1.19	
+		chance = 95
+	}	
+}
+
+
+233_Yehnara_Cixi_character_template = {
+	first_name = "Cixi"
+	last_name = "Yehnara"
+	culture = cu:manchu
+	female = no
+	ideology = ideology_royalist
+	interest_group = ig_landowners
+	birth_date = 1835.11.29
+	traits = {
+		innovative basic_political_operator
+	}
+	heir_usage = {
+		country_trigger = {
+		  exists = c:CHI
+			this = c:CHI
+			has_global_variable = 233_allow_creation
+			c:CHI = { 
+				has_law = law_type:law_monarchy 
+			}
+		}
+		interest_group_trigger = {
+			ig_clout >= 0.1
+			is_interest_group_type = ig_landowners
+		}	
+		earliest_usage_date = 1857.1.1
+		latest_usage_date = 1908.11.15	
+		chance = 95
+	}	
+	interest_group_leader_usage = {
+		country_trigger = {
+		  exists = c:CHI
+			this = c:CHI
+			has_global_variable = 233_allow_creation
+			c:CHI = { 
+				has_law = law_type:law_monarchy 
+			}
+		}
+		interest_group_trigger = {
+			ig_clout >= 0.1
+			is_interest_group_type = ig_landowners
+		}	
+		earliest_usage_date = 1857.1.1
+		latest_usage_date = 1908.11.15	
+		chance = 95
+	}	
+}

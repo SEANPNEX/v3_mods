@@ -1,0 +1,7 @@
+﻿ESS = {
+	texture = "gfx/interface/icons/religion_icons/unused/mormonism.dds"
+	traits = {
+		another_dimension
+	}
+	color = { 0.1 0.1 0.1 }
+}

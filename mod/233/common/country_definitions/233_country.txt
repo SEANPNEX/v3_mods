@@ -1,0 +1,11 @@
+ESS = {
+	color = { 0 0 255 }
+
+	country_type = recognized
+
+	tier = empire
+
+	cultures = { ESS }
+	religion = ESS
+	capital = STATE_BEIJING
+}

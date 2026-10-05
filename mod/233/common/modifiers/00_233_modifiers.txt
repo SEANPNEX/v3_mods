@@ -1,0 +1,280 @@
+﻿233_super = {	
+	country_infamy_decay_mult = 100.0
+	country_infamy_generation_mult = -50.0
+}
+
+233_super_colony = {
+	state_migration_pull_unincorporated_mult = 100
+	country_tension_decay_mult = 10.0
+	country_max_declared_interests_add = 5
+	state_colony_growth_creation_mult = 100000
+	state_colony_growth_speed_mult = 100000
+	state_non_homeland_colony_growth_speed_mult = 100000
+}
+
+233_gold = { #黄金储备上限
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_gold_reserve_limit_mult = 50 
+}
+
+233_tax_income = { #税收
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_tax_income_add = 10000000
+	state_tax_capacity_mult = 10
+}
+
+233_authority = { #权威
+	country_authority_add = 500
+	country_authority_mult = 1
+}
+
+233_influence = { #影响
+	country_influence_add = 500
+	country_influence_mult = 1
+}
+
+233_bureaucracy = { #行政
+	country_bureaucracy_add = 500
+	country_bureaucracy_mult = 1
+}
+
+233_diplomatic = { #外交
+	country_diplomatic_play_maneuvers_add = 50000
+	country_improve_relations_speed_mult = 10 #改善关系速度%
+  country_damage_relations_speed_mult = 10 #破坏关系速度%
+}
+
+233_tech = { #科技
+	technology_invention_cost_mult = -0.95         #科技花费
+	country_weekly_innovation_add = 100        #创新
+	country_weekly_innovation_mult = 1			#创新加成
+	country_tech_spread_add = 1000       #科技扩散
+	country_weekly_innovation_max_add = 10000 #创新上限
+}
+233_assimilation_and_conversion = { #同化和皈依
+	state_assimilation_mult = 10 			#同化
+	state_conversion_mult = 10 			#皈依
+}
+
+233_education = { #教育
+	state_education_access_add = 0.1  		#教育机会
+  state_education_access_wealth_add = 0.1 	#基于财富的受教育
+	state_pop_qualifications_mult = 0.5			#资质
+}
+
+233_birth = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_birth_rate_mult = 1.5 #出生率
+	state_mortality_mult = -1
+	state_accepted_birth_rate_mult = 2
+	state_working_adult_ratio_add = 0.3
+}
+
+233_death = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_birth_rate_mult = -0.95
+	state_mortality_mult = 0.5 #死亡率
+	state_peasants_mortality_mult = 1
+}
+
+233_army = {
+	character_command_limit_mult = 2			#指挥上限乘数
+	character_morale_cap_add = 25			#士气上限
+	front_advancement_speed_add = 10			#前线进展速度
+	front_advancement_speed_mult = 2			#前线进展速度上限
+	unit_army_offense_add = 2 			#陆军推进
+	unit_army_offense_mult = 2 			#陆军推进
+	unit_army_defense_add = 2			#陆军防御
+	unit_army_defense_mult = 2			#军队防御
+	unit_kill_rate_add = 0.1 			#杀戮率
+	country_war_exhaustion_casualties_mult = -0.4			#伤亡造成的厌战度
+	building_mobilization_cost_mult = -0.4			#动员商品需求
+	unit_recovery_rate_add = 0.6			#陆军恢复速率
+	country_army_power_projection_mult = 1			#军队投射
+	building_training_rate_add = 20 			#训练率
+	country_military_wages_mult = -0.5 			#军队工资
+}
+
+233_navy = {
+	state_port_range_add = 2			#军港范围
+	unit_convoy_raiding_mult = 2 			#商船袭击效率
+	unit_navy_offense_add = 2			#海军进攻
+	unit_navy_defense_add = 2			#海军防守
+	unit_navy_offense_mult = 2			#海军攻击（百分比
+	unit_navy_defense_mult = 2			#海军防御（百分比
+	unit_morale_protection_mult = 2			#士气维持
+	building_naval_base_throughput_mult = 2			#军港吞吐量
+	battle_navy_recovery_rate_add = 2				#恢复
+	country_navy_power_projection_mult = 1	#海军力量投射（百分比
+}
+
+#军队
+233_armed_forces_up_Modifier = {
+	interest_group_ig_armed_forces_pol_str_mult = 3
+}
+233_armed_forces_down_Modifier = {
+	interest_group_ig_armed_forces_pol_str_mult = -3
+}
+#知识分子
+233_intelligentsia_up_Modifier = {
+	interest_group_ig_intelligentsia_pol_str_mult = 3
+}
+233_intelligentsia_down_Modifier = {
+	interest_group_ig_intelligentsia_pol_str_mult = -3
+}
+#教士
+233_devout_up_Modifier = {
+	interest_group_ig_devout_pol_str_mult = 3
+}
+233_devout_down_Modifier = {
+	interest_group_ig_devout_pol_str_mult = -3
+}
+#实业家
+233_industrialists_up_Modifier = {
+	interest_group_ig_industrialists_pol_str_mult = 3
+}
+233_industrialists_down_Modifier = {
+	interest_group_ig_industrialists_pol_str_mult = -3
+}
+#地主
+233_landowners_up_Modifier = {
+	interest_group_ig_landowners_pol_str_mult = 3
+}
+233_landowners_down_Modifier = {
+	interest_group_ig_landowners_pol_str_mult = -3
+}
+#
+233_petty_bourgeoisie_up_Modifier = {
+	interest_group_ig_petty_bourgeoisie_pol_str_mult = 3
+}
+233_petty_bourgeoisie_down_Modifier = {
+	interest_group_ig_petty_bourgeoisie_pol_str_mult = -3
+}
+#
+233_rural_folk_up_Modifier = {
+	interest_group_ig_rural_folk_pol_str_mult = 3
+}
+233_rural_folk_down_Modifier = {
+	interest_group_ig_rural_folk_pol_str_mult = -3
+}
+#工会
+233_trade_unions_up_Modifier = {
+	interest_group_ig_trade_unions_pol_str_mult = 3
+}
+233_trade_unions_down_Modifier = {
+	interest_group_ig_trade_unions_pol_str_mult = -3
+}
+
+233_ACHIEVEMENT_perkeletankki = {
+	building_output_tanks_mult = 10.0
+	building_input_mult = -1
+}
+233_ACHIEVEMENT_poppydock = {
+	building_opium_plantation_throughput_mult = 1000.0
+}
+233_ACHIEVEMENT_billionare = {
+	building_gold_mine_throughput_mult = 10000.0
+	building_input_mult = -1
+}
+
+0_consumption_buff = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_input_mult = -1
+}
+10_throughput_buff = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_throughput_mult = 10
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+233_zuozhe = {	
+  country_legitimacy_headofstate_add = 100	#国家元首合法性修正
+	country_legitimacy_base_add = 100		#国家派系合法性修正
+	character_popularity_add = 100		#人气
+	country_law_enactment_success_add = 0.95 #法律通过率
+	country_law_enactment_time_mult = -0.90 #法律时间 
+	interest_group_approval_add = 50 #利益集团支持度
+	country_prestige_mult = 1.0 #国家威望
+	building_input_mult = -0.95 #工厂原材料输入
+	building_throughput_mult = 2 # 工厂产出
+	state_migration_pull_mult = 1.0 #移民吸引力
+	state_radicals_from_sol_change_mult = -0.5   #生活水平所影响的激进派
+	state_infrastructure_add = 1000 #基础建设
+	unit_defense_mult = 10				#部队防御（百分比
+	unit_offense_mult = 10				#部队攻击（百分比
+	state_poor_expected_sol = -99			#劳工阶层需求
+	state_middle_expected_sol = -95		#中产阶层需求
+	state_rich_expected_sol = -90			#富裕阶层需求
+	state_expected_sol_from_literacy = -80	#识字率对需求的影响
+	country_trade_route_competitiveness_mult = 2			#贸易路线竞争力
+	country_trade_route_quantity_mult = 2			#贸易路线交易量
+	country_expenses_add = -5000			#政府支出
+	building_group_bg_service_throughput_mult = 2 			#服务产出
+	building_government_administration_throughput_mult = 2 			#政府管理吞吐量
+	country_government_wages_mult = -0.5 			#政府工资
+	building_group_bg_manufacturing_throughput_mult = 2 		#制造业吞吐
+	building_group_bg_plantations_throughput_mult = 2 			#种植园吞吐
+	building_group_bg_agriculture_throughput_mult = 2 			#农业吞吐
+	building_group_bg_oil_extraction_throughput_mult = 2 		#油吞吐
+	building_group_bg_mining_throughput_mult = 2
+	building_group_bg_logging_throughput_mult = 2
+	building_group_bg_fishing_throughput_mult = 2
+	building_group_bg_whaling_throughput_mult = 2
+	building_group_bg_ranching_throughput_mult = 2
+	state_standard_of_living_add = 10
+}

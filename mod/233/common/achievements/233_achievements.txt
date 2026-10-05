@@ -1,0 +1,18 @@
+233_painted_eggshell = {
+	possible = {
+	}
+	happened = {
+		hidden_trigger = {
+			has_modifier = 233_zuozhe
+		}
+	}
+}
+233_warp_gate = {
+	possible = {
+	}
+	happened = {
+		hidden_trigger = {
+			exists = c:ESS
+		}
+	}
+}

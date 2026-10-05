@@ -1,0 +1,707 @@
+﻿l_simp_chinese:
+ 
+ 233_super:0 "233恶名"
+ 233_super_colony:0 "233殖民"
+ 233_gold:0 "233金库"
+ 233_tax_income:0 "233税收"
+ 233_authority:0 "233权威"
+ 233_influence:0 "233影响"
+ 233_bureaucracy:0 "233行政"
+ 233_diplomatic:0 "233外交"
+ 233_tech:0 "233科技"
+ 233_assimilation_and_conversion:0 "233同化"
+ 233_education:0 "233教育"
+ 233_birth:0 "233人口"
+ 233_death:0 "233大清洗"
+ 233_army:0 "233陆军"
+ 233_navy:0 "233海军"
+ 
+ 233_ig_on_decision:0 "开启快速创建 [concept_interest_group] [concept_leader] 决议"
+ 233_ig_on_decision_desc:0 ""
+ 233_ig_off_decision:0 "关闭快速创建 [concept_interest_group] [concept_leader] 决议"
+ 233_ig_off_decision_desc:0 ""
+ 
+ 233_ig_armed_forces_decision:0 "[GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant] [concept_leader]"
+ 233_ig_armed_forces_decision_desc:0 ""
+ 233_ig_devout_decision:0 "[GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] [concept_leader]"
+ 233_ig_devout_decision_desc:0 ""
+ 233_ig_industrialists_decision:0 "[GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant] [concept_leader]"
+ 233_ig_industrialists_decision_desc:0 ""
+ 233_ig_intelligentsia_decision:0 "[GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] [concept_leader]"
+ 233_ig_intelligentsia_decision_desc:0 ""
+ 233_ig_landowners_decision:0 "[GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] [concept_leader]"
+ 233_ig_landowners_decision_desc:0 ""
+ 233_ig_petty_bourgeoisie_decision:0 "[GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] [concept_leader]"
+ 233_ig_petty_bourgeoisie_decision_desc:0 ""
+ 233_ig_rural_folk_decision:0 "[GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant] [concept_leader]"
+ 233_ig_rural_folk_decision_desc:0 ""
+ 233_ig_trade_unions_decision:0 "[GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] [concept_leader]"
+ 233_ig_trade_unions_decision_desc:0 ""
+ 233_random_decision:0 "随机主义"
+ 233_random_decision_desc:0 ""
+ 233_ideology_moderate_decision:0 "温和主义"
+ 233_ideology_moderate_decision_desc:0 ""
+ 233_ideology_traditionalist_decision:0 "传统主义"
+ 233_ideology_traditionalist_decision_desc:0 ""
+ 233_ideology_atheist_decision:0 "虚无主义"
+ 233_ideology_atheist_decision_desc:0 ""
+ 233_ideology_republican_leader_decision:0 "共和主义"
+ 233_ideology_republican_leader_decision_desc:0 ""
+ 233_ideology_radical_decision:0 "激进主义"
+ 233_ideology_radical_decision_desc:0 ""
+ 233_ideology_abolitionist_decision:0 "废奴主义"
+ 233_ideology_abolitionist_decision_desc:0 ""
+ 233_ideology_slaver_decision:0 "蓄奴主义"
+ 233_ideology_slaver_decision_desc:0 ""
+ 233_ideology_feminist_decision:0 "女权主义"
+ 233_ideology_feminist_decision_desc:0 ""
+ 233_ideology_reformer_decision:0 "改良主义"
+ 233_ideology_reformer_decision_desc:0 ""
+ 233_ideology_pacifist_decision:0 "和平主义"
+ 233_ideology_pacifist_decision_desc:0 ""
+ 233_ideology_jingoist_leader_decision:0 "沙文主义"
+ 233_ideology_jingoist_leader_decision_desc:0 ""
+ 233_ideology_royalist_decision:0 "保皇主义"
+ 233_ideology_royalist_decision_desc:0 ""
+ 233_ideology_social_democrat_decision:0 "社民主义"
+ 233_ideology_social_democrat_decision_desc:0 ""
+ 233_ideology_communist_decision:0 "共产主义"
+ 233_ideology_communist_decision_desc:0 ""
+ 233_ideology_vanguardist_decision:0 "先锋队主义"
+ 233_ideology_vanguardist_decision_desc:0 ""
+ 233_ideology_fascist_decision:0 "法西斯主义"
+ 233_ideology_fascist_decision_desc:0 ""
+ 233_ideology_anarchist_decision:0 "无政府主义"
+ 233_ideology_anarchist_decision_desc:0 ""
+ 233_ideology_ethno_nationalist_decision:0 "民族主义"
+ 233_ideology_ethno_nationalist_decision_desc:0 ""
+ 233_ideology_theocrat_decision:0 "神权主义"
+ 233_ideology_theocrat_decision_desc:0 ""
+ 233_ideology_market_liberal_decision:0 "市场主义"
+ 233_ideology_market_liberal_decision_desc:0 ""
+ 
+ 233_mod:0 "233事件菜单"
+ 233_mod_desc:0 ""
+ 233_mod_welcome_1:0 "欢迎使用本mod，当前mod模式：轻量版"
+ 233_mod_welcome_2:0 "欢迎使用本mod，当前mod模式：普通版"
+ 233_mod_welcome_3:0 "欢迎使用本mod，当前mod模式：完整版"
+ Create_leaders:0 "创建角色"
+ Modify_leaders:0 "修改角色"
+ Cheat_events:0 "作弊事件"
+ Don't_click_here:0 "不要点这里"
+ Create_historical_leaders:0 "创建历史角色"
+ Create_random_leaders:0 "创建随机角色"
+ return:0 "返回"
+ Europa:0 "欧洲"
+ Asia_and_Africa:0 "亚洲和非洲"
+ America:0 "美洲"
+ Events_and_hidden_characters:0 "事件及隐藏角色"
+ Queen_Victoria:0 "维多利亚女王（大不列颠）"
+ Karl_Marx:0 "卡尔·马克思"
+ Abraham_Lincoln:0 "亚伯拉罕·林肯（美利坚）"
+ Napoleon_III:0 "拿破仑三世（法兰西）"
+ Otto_von_Bismarck:0 "俾斯麦（普鲁士）"
+ The_Daoguang_Emperor:0 "道光皇帝（大清）"
+ William_IV:0 "威廉四世（大不列颠）"
+ Louis_Philippe_I:0 "路易·菲利普一世（法兰西）"
+ William_III:0 "威廉三世（普鲁士）"
+ Ferdinand_I:0 "费迪南德一世（奥地利）"
+ Nikolai_I:0 "尼古拉一世（俄罗斯）"
+ Isabella_II:0 "伊莎贝尔二世（西班牙）"
+ Maria_II:0 "玛丽亚二世（葡萄牙）"
+ Vittorio_Emanuele_II:0 "维托里奥·埃马努埃莱二世（意大利）"
+ Ferdinand_II:0 "费迪南多二世（两西西里）"
+ Gregory_XVI:0 "额我略十六世（教宗）"
+ 233_Leopold_I:0 "利奥波德一世（比利时）"
+ Frederick_VI:0 "弗雷德里克六世（丹麦）"
+ Otto_I:0 "奥托一世（希腊）"
+ William_I:0 "威廉一世（荷兰）"
+ Karl_XIV:0 "卡尔十四世（瑞典）"
+ 233_Tokugawa:0 "德川家齐（日本）"
+ Yi_Hwan:0 "李桓（朝鲜）"
+ 233_Minh_Mang:0 "明命（大南）"
+ 233_Bagyidaw:0 "孟既（缅甸）"
+ Rama_III:0 "南格劳·却克里（暹罗）"
+ Ranjit_Singh:0 "兰吉特·辛格（锡克）"
+ Mohammad_Shah_Qajar:0 "穆罕默德·沙阿·恺加（波斯）"
+ Mahmud_II:0 "马哈茂德二世（奥斯曼）"
+ 233_Muhammad_Ali:0 "穆罕默德·阿里（埃及）"
+ Andrew_jackson:0 "安德鲁·杰克逊（美利坚）"
+ Juan_Manuel_de_Rosas:0 "胡安·曼努埃尔·德·罗萨斯（阿根廷）"
+ Andres_de_Santa_Cruz:0 "安德烈斯·德·圣克鲁斯（玻利维亚）"
+ Pedro_II:0 "佩德罗二世（巴西）"
+ Jose_Joaquin_Prieto:0 "何塞·华金·普列托（智利）"
+ Francisco_de_Paula_Santander:0 "弗朗西斯科·德·保拉·桑坦德（哥伦比亚）"
+ Jose_Maria_Vargas:0 "何塞·马里亚·巴尔加斯（委内瑞拉）"
+ Miguel_Barragan:0 "米格尔·巴拉甘（墨西哥）"
+ Antonio_Lopez_de_Santa_Anna:0 "安东尼奥·洛佩斯·德·圣安纳（墨西哥）"
+ Francisco_Morazan:0 "弗朗西斯科·莫拉桑（中美洲）"
+ Giuseppe_Garibaldi:0 "朱塞佩·加里波第（意大利）"
+ Oscar_Wilde:0 "奥斯卡·王尔德（大不列颠）"
+ Sigmund_Freud:0 "西格蒙德·弗洛伊德（奥地利）"
+ Tewodros_II:0 "特沃德罗斯二世（埃塞俄比亚）"
+ Nikolai_II:0 "尼古拉二世（俄罗斯）"
+ 233_Ninko:0 "仁孝（日本）"
+ 233_Komei:0 "孝明（日本）"
+ 233_Meiji:0 "明治（日本）"
+ Select_the_role_of_leaders:0 "选择身份"
+ ruler_and_interest_group_leader:0 "统治者兼利益集团领袖"
+ Interest_group_leaders:0 "利益集团领袖"
+ Select_the_interest_group_of_leaders:0 "选择利益集团"
+ Select_the_region_of_leaders:0 "选择战区"
+ Select_the_gender_of_leaders:0 "选择性别"
+ Modify_leaders_1:0 "选择修改的领袖"
+ Modify_leaders_2:0 "选择修改的特质"
+ Modify_leaders_3:0 "选择修改的意识形态"
+ 233_Retire:0 "领袖退休"
+ 233_Kill:0 "杀死领袖"
+ 233_Exile:0 "流放领袖"
+ 233_commander_rank:0 "指挥官等级"
+ Select_historical_leaders:0 "选择历史角色"
+ 233_tcr_1:0 "[SCOPE.sCharacter('233_tcr_1').GetFullName]"
+ 233_tcr_2:0 "[SCOPE.sCharacter('233_tcr_2').GetFullName]"
+ 233_tcr_3:0 "[SCOPE.sCharacter('233_tcr_3').GetFullName]"
+ 233_tcr_4:0 "[SCOPE.sCharacter('233_tcr_4').GetFullName]"
+ 233_tcr_5:0 "[SCOPE.sCharacter('233_tcr_5').GetFullName]"
+ 233_tcr_6:0 "[SCOPE.sCharacter('233_tcr_6').GetFullName]"
+ 233_tcr_7:0 "[SCOPE.sCharacter('233_tcr_7').GetFullName]"
+ 233_tcr_8:0 "[SCOPE.sCharacter('233_tcr_8').GetFullName]"
+ 233_tcr_9:0 "[SCOPE.sCharacter('233_tcr_9').GetFullName]"
+ add_experience:0 "加经验"
+ add_super_traits:0 "添加超级特质"
+ remove_super_traits:0 "移除超级特质"
+ Convert:0 "改变信仰"
+ remove_trait:0 "移除特质"
+ add_personality_traits:0 "添加人格特质"
+ add_skill_traits:0 "添加技能特质"
+ add_conditions_traits:0 "添加条件特质"
+ 233_potential_target:0 "233潜在目标"
+ 233_potential_target_desc:0 "这是233mod的特质，如果你没打开233事件这个特质还存在，那就是bug"
+ 233_target_character:0 "233锁定目标"
+ 233_target_character_desc:0 "这是233mod的特质，如果你没打开233事件这个特质还存在，那就是bug"
+ 233_super_traits:0 "233超级特质"
+ 233_super_traits_desc:0 "这是233mod的特质"
+ Cheat_events_1:0 "作弊要适度"
+ 233_money:0 "给我打钱"
+ Stabilizing_the_country:0 "安内"
+ POP_Education_and_Scientific_research:0 "人口科教"
+ Diplomacy_Colonization_and_Expansion:0 "攘外"
+ 233_money_1:0 "给我打钱"
+ 233_money_2:0 "你说得对，但疯狂星期四是由肯德基出品的促销活动，有人v我50吗"
+ 233_money_3:0 "我有很多钱"
+ 233_money_4:0 "我还有钱"
+ 233_money_5:0 "别点了，已经一滴都不剩了"
+ Remove_Treasury:0 "移除金库"
+ Add_tax_income:0 "增加税收"
+ Remove_tax_income:0 "恢复正常税收"
+ Remove_authority:0 "移除权威力"
+ Remove_influence:0 "移除影响力"
+ Remove_bureaucracy:0 "移除行政力"
+ 233_legitimacy:0 "整合领土"
+ Assimilation_and_conversion:0 "同化和皈依"
+ Remove_assimilation_and_conversion:0 "移除同化和皈依"
+ 233_loyalists:0 "人民效忠"
+ Add_233_birth:0 "鼓励生育和就业"
+ Remove_233_birth:0 "不鼓励生育和就业"
+ Add_233_death:0 "人口大清洗"
+ Remove_233_death:0 "停止人口大清洗"
+ 233_literacy:0 "直接加识字率"
+ Add_233_education:0 "教育人才培养"
+ Remove_233_education:0 "停止教育人才培养"
+ Add_233_tech:0 "科技研发中心"
+ Remove_233_tech:0 "关闭科技研发中心"
+ 233_expedition:0 "快速探险"
+ 233_Reduce_infamy:0 "直接减恶名"
+ Add_infamy_decay:0 "开始消恶名"
+ Remove_infamy_decay:0 "停止消恶名"
+ Add_super_colony:0 "快速殖民"
+ Remove_super_colony:0 "停止快速殖民"
+ Add_super_diplomatic:0 "超级外交"
+ Remove_super_diplomatic:0 "关闭超级外交"
+ Add_super_army:0 "超级陆军"
+ Remove_super_army:0 "关闭超级陆军"
+ Add_super_navy:0 "超级海军"
+ Remove_super_navy:0 "关闭超级海军"
+ MOD_Settings:0 "MOD设置"
+ Hide_the_decisions_of_creating_interest_group_leaders:0 "隐藏创建利益集团领袖决议"
+ Show_the_decisions_of_creating_interest_group_leaders:0 "显示创建利益集团领袖决议"
+ Show_additional_decisions:0 "显示更多决议"
+ Hide_additional_decisions:0 "隐藏更多决议"
+ Mod_initialization:0 "MOD初始化（无bug时勿用）"
+ 233_kill_general_decision:0 "快速杀死陆军将军"
+ 233_kill_general_decision_desc:0 ""
+ 233_kill_admiral_decision:0 "快速杀死海军将军"
+ 233_kill_admiral_decision_desc:0 ""
+ 
+ Create_historical_characters_submitted_by_players:0 "投稿的历史人物"
+ Stop_creation:0 "停止创建"
+ Characters_that_can_be_created_at_present:0 "目前可生成的人物"
+ Submission_requirements:0 "投稿要求"
+ Thanks_to_contributors:0 "投稿人一览"
+ 233_events.160_1:0 "为保证兼容性，点击按钮才会出现投稿人物，他们概率自动加入将池或领袖池，历史出生时间，20多岁才会登场，想查看其他信息请点击下面的选项"
+ 233_events.160_2:0 "目前可以生成的人物：彭湃，瞿秋白，列宁，秋瑾，左宗棠，刘铭传，冯子材，左宝贵，邓世昌，白朗，刘永福，康有为，梁启超，慈禧"
+ 233_events.160_3:0 "如果你有想加入本mod的人物请给我留言，投稿格式：姓名（必须）/身份（可支持多个）/文化/宗教（无宗教信仰不写）/利益集团（利益集团领袖可支持多个）/意识形态（必须）/特质"
+ 233_events.160_4:0 "投稿人一览：fangmuan，Carlos，Ada"
+ Pai:0 "湃"
+ Qu:0 "瞿"
+ Qiubai:0 "秋白"
+ Vladimir_Ilyich:0 "弗拉基米尔·伊里奇"
+ Lenin:0 "列宁"
+ 233_Qiu:0 "秋"
+ 233_Jin:0 "瑾"
+ Zuo:0 "左"
+ Zongtang:0 "宗棠"
+ Mingchuan:0 "铭传"
+ Zicai:0 "子材"
+ Baogui:0 "宝贵"
+ Shichang:0 "世昌"
+ Kang:0 "康"
+ Youwei:0 "有为"
+ Qichao:0 "启超"
+ Bai:0 "白"
+ Cixi:0 "慈禧"
+ Yehnara:0 "叶赫那拉"
+ Summary:0 "返回概述"
+ Allow_creation:0 "允许创建"
+ Globalization:0 "全球化"
+ 233_globalization:0 "#N 同化全球会把全球洗为你的主流文化和宗教，如果你有两个主流文化会随机选一个（只有大清会同化为汉），此操作不可逆，慎用#!"
+ Assimilate_the_world:0 "同化全球"
+ Annex_the_world:0 "吞并全球"
+ Update_Log:0 "更新日志"
+ Update_Log_1:0 "V20230228"
+ Influence_of_interest_groups:0 "利益集团影响力"
+ Increase_influence:0 "提升影响力"
+ Reduce_influence:0 "降低影响力"
+ 
+ 233_armed_forces_up_Modifier:0 "233军队提升影响力"
+ 233_devout_up_Modifier:0 "233教会提升影响力"
+ 233_industrialists_up_Modifier:0 "233实业家提升影响力"
+ 233_intelligentsia_up_Modifier:0 "233知识分子提升影响力"
+ 233_landowners_up_Modifier:0 "233地主提升影响力"
+ 233_petty_bourgeoisie_up_Modifier:0 "233小市民提升影响力"
+ 233_rural_folk_up_Modifier:0 "233乡村民众提升影响力"
+ 233_trade_unions_up_Modifier:0 "233工会提升影响力"
+ 233_armed_forces_down_Modifier:0 "233军队降低影响力"
+ 233_devout_down_Modifier:0 "233教会降低影响力"
+ 233_industrialists_down_Modifier:0 "233实业家降低影响力"
+ 233_intelligentsia_down_Modifier:0 "233知识分子降低影响力"
+ 233_landowners_down_Modifier:0 "233地主降低影响力"
+ 233_petty_bourgeoisie_down_Modifier:0 "233小市民降低影响力"
+ 233_rural_folk_down_Modifier:0 "233乡村民众降低影响力"
+ 233_trade_unions_down_Modifier:0 "233工会降低影响力"
+ 
+ Mode_selection:0 "模式选择"
+ Mode_selection_1:0 "当前模式：轻量版。轻量版尽可能去除作弊功能，只有创建角色和使角色退休两个功能"
+ Mode_selection_2:0 "当前模式：普通版。普通版只有角色相关作弊，移除其他作弊事件"
+ Mode_selection_3:0 "当前模式：完整版。完整版包含本mod所有功能，如果不喜欢作弊请选择其他两个模式"
+ Determines_the_mode_and_cannot_be_changed:0 "确定模式且本局游戏不能更改"
+ Determines_the_mode_but_can_be_changed_in_mod_settings:0 "确定模式但可在mod设置中更改"
+ Lightweight_version:0 "轻量版"
+ Normal_version:0 "普通版"
+ Full_version:0 "完整版"
+ ACHIEVEMENT:0 "成就"
+ Solve_the_late_game_stuck:0 "解决后期游戏卡顿"
+ 233_ACHIEVEMENT_1:0 "成就作弊会丧失很多游戏乐趣，请慎用，使用时尽量开新档，只显示你扮演国家可获得的成就"
+ 233_ACHIEVEMENT_victorian_century_desc:0 "开启后挂机看海到1936"
+ 233_Taiping_Heavenly_Kingdom:0 "233太平天国"
+ 233_Taiping_Heavenly_Kingdom_desc:0 ""
+ 233_Bulgaria_leaders:0 "233保加利亚的领袖"
+ 233_Bulgaria_leaders_desc:0 ""
+ Batemberg:0 "巴滕堡"
+ The_First_Stage_of_the_Taiping_Heavenly_Kingdom:0 "太平天国第一阶段"
+ The_Second_Stage_of_the_Taiping_Heavenly_Kingdom:0 "太平天国第二阶段"
+ The_third_Stage_of_the_Taiping_Heavenly_Kingdom:0 "太平天国第三阶段"
+ Let_Hong_Xiuquan_be_the_leader_of_the_Taiping_Heavenly_Kingdom:0 "让洪秀全当天国领袖"
+ Alexander_Batemberg:0 "亚历山大·巴滕堡"
+ Ferdinand_of_Saxe_Coburg_Gotha:0 "费迪南德·萨克森-科堡-哥达"
+ 233_ACHIEVEMENT_tycoon_desc:0 "开启后挂机到强劲市场"
+ 233_YES:0 "确定"
+ 
+ 233_ACHIEVEMENT_peccavi:0 "我有衅得"
+ 233_ACHIEVEMENT_perkeletankki:0 "该死的坦克"
+ 233_ACHIEVEMENT_luxurious_luxembourg:0 "卢奢堡"
+ 233_ACHIEVEMENT_anarchy_in_the_uk:0 "英式无政府主义"
+ 233_ACHIEVEMENT_muhammed_alis_ambition:0 "穆罕默德·阿里的野望"
+ 233_ACHIEVEMENT_an_empire_under_the_pun:0 "旁神的帝国"
+ 233_ACHIEVEMENT_i_didnt_vote_for_pedro:0 "我没投给佩德罗"
+ 233_ACHIEVEMENT_go_west_young_man:0 "去西部吧，年轻人"
+ 233_ACHIEVEMENT_the_western_protectorate:0 "西域都护府"
+ 233_ACHIEVEMENT_the_paris_commune:0 "巴黎公社"
+ 233_ACHIEVEMENT_barbarys_back:0 "巴巴里再临"
+ 233_ACHIEVEMENT_miners_and_minors:1 "儿童，不是矿工"
+ 233_ACHIEVEMENT_healthy_man_of_europe:0 "欧洲健夫"
+ 233_ACHIEVEMENT_habsburg_resurgence:0 "哈布斯堡复兴"
+ 233_ACHIEVEMENT_great_game:0 "大博弈"
+ 233_ACHIEVEMENT_bourbon_for_everyone:0 "人人有波旁！"
+ 233_ACHIEVEMENT_manifest_mexico:0 "昭昭墨运"
+ 233_ACHIEVEMENT_american_territory:0 "美利坚领地"
+ 233_ACHIEVEMENT_broken_promises:0 "背刺鬼才"
+ 233_ACHIEVEMENT_the_berlin_conference:0 "柏林会议"
+ 233_ACHIEVEMENT_belle_epoque:0 "美好年代"
+ 233_ACHIEVEMENT_deeds_not_words:0 "要行动不要空话！"
+ 233_ACHIEVEMENT_first_flight:0 "第一次飞行"
+ 233_ACHIEVEMENT_victorian_century:0 "维多利亚世纪"
+ 233_ACHIEVEMENT_poor_huddled_masses:0 "穷困潦倒的芸芸众生"
+ 233_ACHIEVEMENT_billionare:0 "十亿大关"
+ 233_ACHIEVEMENT_serfs_up:0 "农奴向前冲"
+ 233_ACHIEVEMENT_risorgimento:0 "复兴运动"
+ 233_ACHIEVEMENT_three_hurrahs:0 "三呼万岁"
+ 233_ACHIEVEMENT_solomons_quest:0 "所罗门的任务"
+ 233_ACHIEVEMENT_i_am_a_scandinavian:0 "我是斯堪的纳维亚人"
+ 233_ACHIEVEMENT_enlightened_despot:0 "开明独裁"
+ 233_ACHIEVEMENT_mightier_than_the_sword:0 "不战而屈人之兵"
+ 233_ACHIEVEMENT_revolutionary:0 "革命者"
+ 233_ACHIEVEMENT_reading_campaign:0 "扫盲运动"
+ 233_ACHIEVEMENT_we_are_not_amused:0 "吾等不觉得好笑"
+ 233_ACHIEVEMENT_institutional:0 "机构建制"
+ 233_ACHIEVEMENT_poppydock:0 "罂粟港"
+ 233_ACHIEVEMENT_grander_colombia:0 "大大哥伦比亚"
+ 233_ACHIEVEMENT_inventive:0 "创新"
+ 233_ACHIEVEMENT_educated:0 "受教育"
+ 233_ACHIEVEMENT_tycoon:0 "大亨"
+ 233_ACHIEVEMENT_hegemon:0 "霸主"
+ 233_ACHIEVEMENT_caretaker:0 "照料者"
+ 233_ACHIEVEMENT_star_swarmed_banner:0 "满天星条旗"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 233_events.400:0 "诡异的房间"
+ 233_events.4001:0 "你转眼就进入了一个房间，这里有几扇门，你选择"
+ 233_events.4002:0 "离开这里"
+ 233_events.4003:0 "打开神秘的门"
+ 233_events.4004:0 "打开写着咸鱼之家字样的门"
+ 233_events.4005:0 "进入咸鱼之家"
+ 233_events.4006:0 "开启传送门"
+ 233_events.401:0 "咸鱼之家"
+ 233_events.4011:0 "没想到你居然能找到这里，我是这个mod的作者，你有什么事吗？"
+ 233_events.402:0 "我要问一些问题"
+ 233_events.4012:0 "离开"
+ 233_events.4021:0 "你要问些什么"
+ 233_events.403:0 "为什么这个mod叫233"
+ 233_events.404:0 "如果我发现bug了要怎么做"
+ 233_events.405:0 "有什么特殊奖励吗"
+ 233_events.4022:0 "不问了"
+ 233_events.4031:0 "只是写代码随便打的233而已，没什么特殊的意义，最开始叫更换领袖决议,后来想多做点东西，就直接用了233这个名字"
+ 233_events.4032:0 "知道了"
+ 233_events.4041:0 "通常更新前我都会测试一遍，但不免会有遗漏，如果发现bug，请留言，如果确实是本mod的bug我会及时修的，另外如果你有什么好的意见和建议，也可以留言，我会尽量满足"
+ 233_events.4013:0 "你怎么又来了，找我做什么"
+ 233_events.4051:0 "好吧，我也只能给你一个buff了,想要吗（鼠标悬停查看）"
+ 233_events.406:0 "我要"
+ 233_events.4052:0 "不要"
+ 233_events.4061:0 "还有，可以的话给mod点个赞行吗？如果之后不想要buff了，可以找我移除"
+ 233_events.4062:0 "可以"
+ 233_events.4063:0 "但是我拒绝，我要白嫖"
+ 233_events.407:0 "传送门"
+ 233_events.4071:0 "这里有一个神秘的传送门，是否开启？"
+ 233_events.4072:0 "#N 开启传送门（慎用！！！）#!"
+ 233_events.408:0 "关于神秘门"
+ 233_events.4081:0 "我只能告诉你最好不要打开它，毕竟好奇心害死猫"
+ 
+ Add_author's_protection:0 "我还想要作者的庇护"
+ Remove_author's_protection:0 "移除作者的庇护"
+ 233_zuozhe:0 "233作者的庇护"
+ ESS:0 "233"
+ ESS_ADJ:0 "233"
+ ig_233:0 "帝国内阁"
+ ideology_233_1:0 "帝国权威主义"
+ ideology_233_2:0 "人权平等主义"
+ ideology_233_3:0 "改革扩张主义"
+ Saratoga:0 "萨拉托加"
+ another_dimension:0 "异次元"
+ 233_DIGUO:0 "233帝国"
+ 233_GONGHEGUO:0 "233共和国"
+ ACHIEVEMENT_233_painted_eggshell:0 "咸鱼之家"
+ ACHIEVEMENT_233_warp_gate:0 "不该开启的门"
+ ACHIEVEMENT_DESC_233_painted_eggshell:0 "得到作者的庇护"
+ ACHIEVEMENT_DESC_233_warp_gate:0 "开启神秘的传送门"
+ ACHIEVEMENT_GROUP_233:0 "233mod成就"
+ 233_ESS_1:0 "终止轮回"
+ 233_ESS_1_desc:0 ""
+ 233_ESS_2:0 "无尽轮回"
+ 233_ESS_2_desc:0 ""

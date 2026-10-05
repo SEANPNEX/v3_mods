@@ -1,0 +1,3 @@
+another_dimension = {
+	heritage = yes
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "233自用整合",
+	"id" : "",
+  "version" : "",
+  "supported_game_version" : "1.8.*",
+  "picture":"thumbnail.png",
+  "short_description" : "",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
